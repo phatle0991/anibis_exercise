@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UWJH5KVHPBouFIrNc2Gb3Km3V7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="" />
+      <created>1575466326924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575466326924</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2000" y="217" key="#Project_Structure" timestamp="1575466351859">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2000" y="217" key="#Project_Structure/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466351859" />
+    <state x="2000" y="217" key="#Web_Browsers" timestamp="1575468203719">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2000" y="217" key="#Web_Browsers/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468203719" />
+    <state x="202" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575467528933">
+      <screen x="36" y="23" width="1404" height="877" />
+    </state>
+    <state x="202" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467528933" />
+    <state x="2256" y="452" width="288" height="254" key="Github.ShareDialog" timestamp="1575468283582">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2256" y="452" width="288" height="254" key="Github.ShareDialog/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468283582" />
+    <state x="2256" y="452" key="Github.ShareDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466894780" />
+    <state x="2194" y="265" key="Github.UntrackedFilesDialog" timestamp="1575466902595">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2194" y="265" key="Github.UntrackedFilesDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466902595" />
+    <state x="1909" y="71" key="SettingsEditor" timestamp="1575468401321">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1909" y="71" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468401321" />
+    <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466642558" />
+    <state x="379" y="63" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467600692" />
+    <state x="518" y="363" key="git4idea.ui.GitResetDialog" timestamp="1575468917084">
+      <screen x="35" y="23" width="1405" height="877" />
+    </state>
+    <state x="518" y="363" key="git4idea.ui.GitResetDialog/1440.23.1920.1057/35.23.1405.877@35.23.1405.877" timestamp="1575468917084" />
+    <state x="1794" y="249" key="new project wizard" timestamp="1575468308786">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1794" y="249" key="new project wizard/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468308786" />
+  </component>
+</project>
