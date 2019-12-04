@@ -29,7 +29,7 @@ Framework Architecture
 		|	|   |_HomePage.class
 		|	|	|_LoginPage.class
 		|	|	|_SearchResultPage.class
-		|   |_util
+		|	|_util
 		|       |_Config.class
 		|       |_Drivers.class
 		|       |_ElementTry.class
