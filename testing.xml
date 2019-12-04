@@ -4,14 +4,14 @@
     <test name="ChromeTest">
         <parameter name="browser" value="Chrome" />
         <classes>
-            <class name="test.runner.TestRunnerSearch">
+            <class name="testrunner.TestRunnerSearch">
             </class>
         </classes>
     </test>
     <test name="FirefoxTest">
         <parameter name="browser" value="Firefox" />
         <classes>
-            <class name="test.runner.TestRunnerSearch">
+            <class name="testrunner.TestRunnerSearch">
             </class>
         </classes>
     </test>

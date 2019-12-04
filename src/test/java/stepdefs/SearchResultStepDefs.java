@@ -1,4 +1,4 @@
-package step.defs;
+package stepdefs;
 
 public class SearchResultStepDefs {
 }

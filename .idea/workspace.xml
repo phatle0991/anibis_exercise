@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/SearchResult.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SearchResult.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/defs/HomeStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomeStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/defs/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/defs/SearchResultStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/SearchResultStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/runner/TestRunnerSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRunnerSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +50,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java/features" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="/Users/macair/IdeaProjects/anibis_exercise/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -102,10 +117,22 @@
       <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state x="438" y="271" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575478983914" />
+    <state x="475" y="247" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575483535126">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="475" y="247" key="#com.intellij.ide.util.PackageChooserDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575483535126" />
+    <state x="386" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575483525291">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="386" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575483525291" />
     <state x="511" y="328" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575479173644">
       <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state x="511" y="328" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575479173644" />
+    <state x="509" y="351" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1575483539230">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="509" y="351" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575483539230" />
     <state x="2256" y="452" width="288" height="254" key="Github.ShareDialog" timestamp="1575468283582">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>

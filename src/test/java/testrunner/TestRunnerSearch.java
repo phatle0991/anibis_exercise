@@ -1,4 +1,4 @@
-package testcases;
+package testrunner;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import util.Drivers;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/main/jave/features/Home.feature",  glue = {"step.defs"})
+@CucumberOptions(features = "src/test/resources/features/Home.feature",  glue = {"stepdefs"})
 public class TestRunnerSearch {
 
     @BeforeClass
