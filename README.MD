@@ -43,7 +43,7 @@ Framework Architecture
 		|   |   |_SearchResultStepDefs.class
 		|   |_testrunner
 		|          |_TestRunnerSearch.class
-        |   
+		|   
 		|_src/test/resources
 		|	|_features
 		|	|	|_Home.feature
