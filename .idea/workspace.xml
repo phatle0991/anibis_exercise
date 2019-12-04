@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="" />
+    <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +41,24 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="/Users/macair/IdeaProjects/anibis_exercise/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="anibis_exercise" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/macair/IdeaProjects/anibis_exercise/testing.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -70,6 +98,14 @@
       <screen x="36" y="23" width="1404" height="877" />
     </state>
     <state x="202" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467528933" />
+    <state x="438" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575478983914">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="438" y="271" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575478983914" />
+    <state x="511" y="328" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575479173644">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="511" y="328" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575479173644" />
     <state x="2256" y="452" width="288" height="254" key="Github.ShareDialog" timestamp="1575468283582">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
@@ -79,10 +115,15 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2194" y="265" key="Github.UntrackedFilesDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466902595" />
-    <state x="1909" y="71" key="SettingsEditor" timestamp="1575468401321">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="275" y="123" key="Maven.ArtifactSearchDialog" timestamp="1575481088500">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="275" y="123" key="Maven.ArtifactSearchDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575481088500" />
+    <state x="377" y="63" key="SettingsEditor" timestamp="1575480795053">
+      <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state x="1909" y="71" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468401321" />
+    <state x="377" y="63" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575480795053" />
     <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466642558" />
     <state x="379" y="63" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467600692" />
     <state x="518" y="363" key="git4idea.ui.GitResetDialog" timestamp="1575468917084">
