@@ -24,7 +24,7 @@ Framework Architecture
 		|
 		|_src/main/java
 		|	|_config
-		|	|	|_config.properties
+		|	|   |_config.properties
 		|	|_pages
 		|	|   |_HomePage.class
 		|	|	|_LoginPage.class
@@ -42,13 +42,13 @@ Framework Architecture
 		|   |   |_LoginStepDefs.class
 		|   |   |_SearchResultStepDefs.class
 		|   |_testrunner
-		|          |_TestRunnerSearch.class
+		|       |_TestRunnerSearch.class
 		|   
 		|_src/test/resources
 		|	|_features
-		|	|	|_Home.feature
-		|	|	|_Login.feature
-		|	|	|_SearchResult.feature
+		|	|   |_Home.feature
+		|	|   |_Login.feature
+		|	|   |_SearchResult.feature
 
 * **src/test/resources/features** - all the cucumber features files (files .feature ext) goes here.
 * **src/test/java/stepdefs** - you can define step defintion under this package for your feature steps.
