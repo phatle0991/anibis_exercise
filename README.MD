@@ -20,38 +20,42 @@ Download a Framework
 
 Framework Architecture
 --------------
-	Project-Name
+	anibis_exercise
 		|
 		|_src/main/java
-		|	|_appUnderTest
-		|	|	|_calc.apk
-		|	|	|...
-		|	|_browserConfigs
-		|	|	|_saucelab_windows_chrome.properties
-		|	|	|_browserstack_windows_chrome.properties
-		|	|	|...
-		|	|_platformConfigs
-		|		|_saucelab.properties
-		|		|_browserstack.properties
-		|		|...
-		|_src/main/resources
+		|	|_config
+		|	|   |_config.properties
+		|	|_pages
+		|	|   |_HomePage.class
+		|	|	|_LoginPage.class
+		|	|	|_SearchResultPage.class
+		|	|_util
+		|       |_Config.class
+		|       |_Drivers.class
+		|       |_ElementTry.class
+		|       |_SetUp.class
+		|       |_TearDown.class
+		|   
 		|_src/test/java
-		|	|_env
-		|	|	|_DriverUtil.java
-		|	|	|_Hooks.java
-		|	|	|_RunCukeTest.java
-		|	|_userStepDefinitions
-		|	|	|_loginSteps.java
-		|	|	|_signUpSteps.java
-		|	|	|...
+		|   |_stepdefs
+		|   |   |_HomeStepDefs.class
+		|   |   |_LoginStepDefs.class
+		|   |   |_SearchResultStepDefs.class
+		|   |_testrunner
+		|       |_TestRunnerSearch.class
+		|   
 		|_src/test/resources
 		|	|_features
-		|	|	|_login.feature
-		|	|	|_signUp.feature
+		|	|   |_Home.feature
+		|	|   |_Login.feature
+		|	|   |_SearchResult.feature
 
 * **src/test/resources/features** - all the cucumber features files (files .feature ext) goes here.
-* **src/test/java/userStepDefinition** - you can define step defintion under this package for your feature steps.
-* **src/test/java/env** - this package contains cucumber runner (RunCukeTest.java) where you can configure your glue code location (step defintions), define test result output format.(html, json, xml). Hooks where you can configure all before and after test settings Hooks.java, DriverUtil.java contains code for intializing driver instances for respective driver.
+* **src/test/java/stepdefs** - you can define step defintion under this package for your feature steps.
+* **src/test/java/testrunner** - this package contains TestNG cucumber runner where you can 
+configure your glue code location (step defintions)
+Hooks where you can configure all before and after test settings Hooks.java, DriverUtil.java contains code 
+for intializing driver instances for respective driver.
 * **src/main/java/platformConfigs** - If you want to run your test on saucelab and browserstack platforms, you need to add its configuration such as username, access key here.
 * **src/main/java/browserConfig** - When you run your test on remote browser/platform you have to provide capabilities and platform information here.
 * **src/main/java/appUnderTest** - If you are testing mobile based application you can keep your app build here.
