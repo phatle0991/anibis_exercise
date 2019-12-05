@@ -6,10 +6,10 @@ import java.io.*;
 public class Config {
 
     //load config file
-    public static Properties loadConfigFile() {
+    public static Properties loadConfigFile() throws Exception  {
         Properties prop = new Properties();
         //load config file
-        FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/test/java"
+        FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java"
                 + "/config/config.properties");
         try {
             prop.load(ip);
@@ -24,8 +24,7 @@ public class Config {
     }
 
     //Return property value based on input Property Keyword
-    @Override
-    public String getProperty(String propKeyWord) {
+    public static String getProperty(String propKeyWord) throws Exception{
         String propValue = loadConfigFile().getProperty(propKeyWord);
         return propValue;
     }

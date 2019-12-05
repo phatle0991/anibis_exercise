@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Drivers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/SetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/TearDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomeStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomeStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/TestRunnerSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/chrome/TestRunnerSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -48,7 +60,22 @@
       <recent name="$PROJECT_DIR$/src/test/java/features" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/macair/IdeaProjects/anibis_exercise/testing.xml">
+    <configuration name="TestRunnerSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anibis_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testrunner.chrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testrunner.chrome" />
+      <option name="MAIN_CLASS_NAME" value="testrunner.chrome.TestRunnerSearch" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/macair/IdeaProjects/anibis_exercise/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="anibis_exercise" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
@@ -62,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/macair/IdeaProjects/anibis_exercise/testing.xml" />
+        <item itemvalue="JUnit.TestRunnerSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -91,17 +119,19 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2000" y="217" key="#Project_Structure" timestamp="1575466351859">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="441" y="184" key="#Project_Structure" timestamp="1575569211208">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
+    <state x="441" y="184" key="#Project_Structure/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575569211208" />
     <state x="2000" y="217" key="#Project_Structure/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466351859" />
     <state x="2000" y="217" key="#Web_Browsers" timestamp="1575468203719">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2000" y="217" key="#Web_Browsers/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468203719" />
-    <state x="202" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575467528933">
-      <screen x="36" y="23" width="1404" height="877" />
+    <state x="200" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575560667870">
+      <screen x="34" y="23" width="1406" height="877" />
     </state>
+    <state x="200" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575560667870" />
     <state x="202" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467528933" />
     <state x="438" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575478983914">
       <screen x="34" y="23" width="1406" height="877" />
@@ -132,15 +162,47 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2194" y="265" key="Github.UntrackedFilesDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466902595" />
+    <state width="1089" height="351" key="GridCell.Tab.0.bottom" timestamp="1575570100389">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1089" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100389" />
+    <state width="1089" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738979" />
+    <state width="1090" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331765" />
+    <state width="1506" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025286" />
+    <state width="1090" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139280" />
+    <state width="1089" height="351" key="GridCell.Tab.0.center" timestamp="1575570100387">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1089" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100387" />
+    <state width="1089" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738977" />
+    <state width="1090" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331763" />
+    <state width="1506" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025285" />
+    <state width="1090" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139279" />
+    <state width="1089" height="351" key="GridCell.Tab.0.left" timestamp="1575570100385">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1089" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100385" />
+    <state width="1089" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738977" />
+    <state width="1090" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331761" />
+    <state width="1506" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025284" />
+    <state width="1090" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139278" />
+    <state width="1089" height="351" key="GridCell.Tab.0.right" timestamp="1575570100388">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1089" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100388" />
+    <state width="1089" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738978" />
+    <state width="1090" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331764" />
+    <state width="1506" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025285" />
+    <state width="1090" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139279" />
     <state x="275" y="123" key="Maven.ArtifactSearchDialog" timestamp="1575481088500">
       <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state x="275" y="123" key="Maven.ArtifactSearchDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575481088500" />
-    <state x="377" y="63" key="SettingsEditor" timestamp="1575480795053">
+    <state x="377" y="63" key="SettingsEditor" timestamp="1575562107650">
       <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state x="1909" y="71" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468401321" />
-    <state x="377" y="63" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575480795053" />
+    <state x="377" y="63" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575562107650" />
     <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466642558" />
     <state x="379" y="63" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467600692" />
     <state x="518" y="363" key="git4idea.ui.GitResetDialog" timestamp="1575468917084">

@@ -1,25 +1,27 @@
 package pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
+import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 @DefaultUrl("https://stage.anibis.ch/fr/default.aspx")
-public class HomePage{
+public class HomePage extends PageObject {
     private WebDriver driver;
-
     @FindBy(xpath = "//a[@id='ctl00_Header1_ctlHeaderMetaBar_ucMainLinks_hypMyAnibis']")
-    private WebElementFacade loginLink;
+    private WebElementFacade linkLogin;
 
     //Constructor
     public HomePage (WebDriver driver){
+
         this.driver = driver;
         //Initialise Elements
-
+        PageFactory.initElements(driver,this);
     }
 
-    public void verifyHomePageLoad(){
-
+    public void navigateToLoginPage(){
+        linkLogin.click();
     }
 }
