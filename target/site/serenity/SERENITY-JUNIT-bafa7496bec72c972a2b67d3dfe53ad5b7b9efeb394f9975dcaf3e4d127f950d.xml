@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Verify Login Features" skipped="0" tests="10" time="263.87" timestamp="2019-12-08 09:37:35"><testcase name="Cursor is focused on User Email field by default"><failure message="[Error] Cursor is not focused on User Email" type="java.lang.AssertionError">[Error] Cursor is not focused on User Email</failure><system-err>[Error] Cursor is not focused on User Email
+stepdefs.LoginStepDefs.iVerifyCurrentCusor(LoginStepDefs.java:42)
+✽.I verify cursor is focused on User Email field(src/test/resources/features/Login.feature:10)
+</system-err></testcase><testcase name="Customer can't login with incorrect User Email or non-Existed User Email"/></testsuite>

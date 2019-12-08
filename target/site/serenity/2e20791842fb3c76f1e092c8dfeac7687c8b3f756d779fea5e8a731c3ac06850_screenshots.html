@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5209201cc86121e8c2f17a5979c4d2b0185b549210690854a3ffba6d9cbb6b6f.html">Verify Login Features</a></span>
+                > <span class="truncate-60"><a
+                    href="2e20791842fb3c76f1e092c8dfeac7687c8b3f756d779fea5e8a731c3ac06850.html">Customer can't login with incorrect User Email or non-Existed User Email </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-12-2019 21:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verify Login Features </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Open Login Page
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1e17796a9b30841069292d5a630e24934a698046d69aed46b2512f8096d66bcd.html">Loginpage-Useremail-Validation-Scenarios
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4a2306b8b7081bf3737de2a7a21c800562ce6a64a20a80642558e9fc705bd5e6.html">Login-Feature
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Customer can't login with incorrect User Email or non-Existed User Email
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">When I enter User Email = "&lt;userEmail&gt;"<br>And I click on Login button<br>And I verify User Email error message = "&lt;expectedErrMsg&gt;"<br>And I verify User Email error message = "&lt;expectedErrMsg&gt;" color</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="cf3cd5ae881f77b8a28493de06695642518d833e45dcb2ee948f9d410c4975d3.png" title=" Example: {userEmail=buyer.nvg01@gmail.com, expectedErrMsg=}" width="1920"/>
+                <img src="cf3cd5ae881f77b8a28493de06695642518d833e45dcb2ee948f9d410c4975d3.png" title=" When I enter User Email = &quot;buyer.nvg01@gmail.com&quot;" width="1920"/>
+                <img src="cf3cd5ae881f77b8a28493de06695642518d833e45dcb2ee948f9d410c4975d3.png" title=" And I click on Login button" width="1920"/>
+                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot;" width="1920"/>
+                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot; (completed)" width="1920"/>
+                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot; color" width="1920"/>
+                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot; color (completed)" width="1920"/>
+                <img src="6b0155907d983087644fc3f11eb135293be52e46dd7c3b035d391d74798e26a0.png" title=" Example: {userEmail=a@gmail.com, expectedErrMsg=Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client}" width="1920"/>
+                <img src="6b0155907d983087644fc3f11eb135293be52e46dd7c3b035d391d74798e26a0.png" title=" When I enter User Email = &quot;a@gmail.com&quot;" width="1920"/>
+                <img src="6b0155907d983087644fc3f11eb135293be52e46dd7c3b035d391d74798e26a0.png" title=" And I click on Login button" width="1920"/>
+                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot;" width="1920"/>
+                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot; (completed)" width="1920"/>
+                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot; color" width="1920"/>
+                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot; color (completed)" width="1920"/>
+                <img src="e3b35eefd5145625cac4d2e55ae9af2a7a5a7fcb1d7b99169a0802273005e6c5.png" title=" Example: {userEmail=aaaaaaaa@gmail.com, expectedErrMsg=}" width="1920"/>
+                <img src="e3b35eefd5145625cac4d2e55ae9af2a7a5a7fcb1d7b99169a0802273005e6c5.png" title=" When I enter User Email = &quot;aaaaaaaa@gmail.com&quot;" width="1920"/>
+                <img src="e3b35eefd5145625cac4d2e55ae9af2a7a5a7fcb1d7b99169a0802273005e6c5.png" title=" And I click on Login button" width="1920"/>
+                <img src="f172fc0f51d98278ad89675efb689695da4225f2f2e52e7ccad8b3140dfef55b.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="f172fc0f51d98278ad89675efb689695da4225f2f2e52e7ccad8b3140dfef55b.png" title=" And I verify User Email error message = &quot;&quot;" width="1920"/>
+                <img src="158d62b67d8569565ad7bff9106effdd8dd5da209855edb88e918643bfa304c9.png" title=" And I verify User Email error message = &quot;&quot; (completed)" width="1920"/>
+                <img src="158d62b67d8569565ad7bff9106effdd8dd5da209855edb88e918643bfa304c9.png" title=" And I verify User Email error message = &quot;&quot; color" width="1920"/>
+                <img src="158d62b67d8569565ad7bff9106effdd8dd5da209855edb88e918643bfa304c9.png" title=" And I verify User Email error message = &quot;&quot; color (completed)" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" Example: {userEmail=, expectedErrMsg=N&rsquo;oubliez pas cette information}" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" When I enter User Email = &quot;&quot;" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I click on Login button" width="1920"/>
+                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot;" width="1920"/>
+                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; (completed)" width="1920"/>
+                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; color" width="1920"/>
+                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; color (completed)" width="1920"/>
+                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" Example: {userEmail=aaaaa, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" When I enter User Email = &quot;aaaaa&quot;" width="1920"/>
+                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" And I click on Login button" width="1920"/>
+                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="b4006b761a4a7da762b079fb71099a2b1244c95b489a3269ff4204b24364e8ef.png" title=" Example: {userEmail=@, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="b4006b761a4a7da762b079fb71099a2b1244c95b489a3269ff4204b24364e8ef.png" title=" When I enter User Email = &quot;@&quot;" width="1920"/>
+                <img src="b4006b761a4a7da762b079fb71099a2b1244c95b489a3269ff4204b24364e8ef.png" title=" And I click on Login button" width="1920"/>
+                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="871042280af2c8edfcb90fdfc0e88eac1b82f2776871b464643c40e8c8c5ab71.png" title=" Example: {userEmail=.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="871042280af2c8edfcb90fdfc0e88eac1b82f2776871b464643c40e8c8c5ab71.png" title=" When I enter User Email = &quot;.com&quot;" width="1920"/>
+                <img src="871042280af2c8edfcb90fdfc0e88eac1b82f2776871b464643c40e8c8c5ab71.png" title=" And I click on Login button" width="1920"/>
+                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" Example: {userEmail=@.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" When I enter User Email = &quot;@.com&quot;" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I click on Login button" width="1920"/>
+                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" Example: {userEmail=a@.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" When I enter User Email = &quot;a@.com&quot;" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I click on Login button" width="1920"/>
+                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.69</span>
+</div>
+</body>
+</html>

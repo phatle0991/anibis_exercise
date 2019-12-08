@@ -2,19 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ElementUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CommonStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/browsers/chrome/ChromeInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/browsers/edge/EdgeInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/browsers/firefox/FirefoxInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/browsers/ie/IEInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/hook/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Drivers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementTry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/SetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/TearDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/TearDown.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomeStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomeStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/TestRunnerSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/chrome/TestRunnerSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/SearchResultStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/SearchStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/chrome/TestRunnerSearch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SearchResult.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/anibis_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/anibis_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ElementTry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/SetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/SetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/TearDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b3f7211b7f8ef2f10b93ddc9fe095a0f888a32422dbba08ae977f4e1b2fb68d0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b3f7211b7f8ef2f10b93ddc9fe095a0f888a32422dbba08ae977f4e1b2fb68d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testrunner.TestRunnerSearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testrunner.chrome.TestRunnerSearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-testrunner.TestRunnerSearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-testrunner.chrome.TestRunnerSearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.TestRunnerSearch/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testrunner.chrome.TestRunnerSearch/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.TestRunnerSearch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.TestRunnerSearch/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.TestRunnerSearch/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.chrome.TestRunnerSearch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.chrome.TestRunnerSearch/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.chrome.TestRunnerSearch/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/SearchResult.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/HomeStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/HomeStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/SearchResultStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testrunner/chrome/TestRunnerSearch.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +136,11 @@
       </set>
     </option>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="1UWJH5KVHPBouFIrNc2Gb3Km3V7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,22 +158,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/test/java/features" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/browsers" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+      <recent name="$PROJECT_DIR$/src/test/java/testrunner" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/chrome/firefox" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/macair/IdeaProjects/anibis_exercise/testing.xml">
-    <configuration name="TestRunnerSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRunnerSearch">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="anibis_exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testrunner.chrome.*" />
+          <option name="PATTERN" value="testrunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testrunner.chrome" />
-      <option name="MAIN_CLASS_NAME" value="testrunner.chrome.TestRunnerSearch" />
+      <option name="PACKAGE_NAME" value="testrunner" />
+      <option name="MAIN_CLASS_NAME" value="testrunner.TestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/macair/IdeaProjects/anibis_exercise/testing.xml" />
         <item itemvalue="JUnit.TestRunnerSearch" />
+        <item itemvalue="TestNG./Users/macair/IdeaProjects/anibis_exercise/testing.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -119,10 +224,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="441" y="184" key="#Project_Structure" timestamp="1575569211208">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state x="2001" y="217" key="#Project_Structure" timestamp="1575831217098">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="441" y="184" key="#Project_Structure/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575569211208" />
+    <state x="2001" y="217" key="#Project_Structure/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575831217098" />
     <state x="2000" y="217" key="#Project_Structure/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466351859" />
     <state x="2000" y="217" key="#Web_Browsers" timestamp="1575468203719">
       <screen x="1440" y="23" width="1920" height="1057" />
@@ -133,18 +239,24 @@
     </state>
     <state x="200" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575560667870" />
     <state x="202" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467528933" />
-    <state x="438" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575478983914">
-      <screen x="34" y="23" width="1406" height="877" />
+    <state x="1540" y="123" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575704033682">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state x="1540" y="123" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575704033682" />
+    <state x="1992" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575738694227">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1992" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575738694227" />
     <state x="438" y="271" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575478983914" />
     <state x="475" y="247" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575483535126">
       <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state x="475" y="247" key="#com.intellij.ide.util.PackageChooserDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575483535126" />
-    <state x="386" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575483525291">
-      <screen x="34" y="23" width="1406" height="877" />
+    <state x="1921" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575797881803">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="386" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575483525291" />
+    <state x="1921" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575797881803" />
     <state x="511" y="328" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575479173644">
       <screen x="34" y="23" width="1406" height="877" />
     </state>
@@ -162,42 +274,87 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2194" y="265" key="Github.UntrackedFilesDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466902595" />
-    <state width="1089" height="351" key="GridCell.Tab.0.bottom" timestamp="1575570100389">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom" timestamp="1575834869710">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189348" />
     <state width="1089" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100389" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/30.23.1410.877@1440.23.1920.1057" timestamp="1575733471515" />
     <state width="1089" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738979" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/33.23.1407.877@1440.23.1920.1057" timestamp="1575733394802" />
     <state width="1090" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331765" />
-    <state width="1506" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025286" />
-    <state width="1090" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139280" />
-    <state width="1089" height="351" key="GridCell.Tab.0.center" timestamp="1575570100387">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078921" />
+    <state width="1365" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783656" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205515" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575834869710" />
+    <state width="1362" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638046" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center" timestamp="1575834869703">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189346" />
     <state width="1089" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100387" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/30.23.1410.877@1440.23.1920.1057" timestamp="1575733471510" />
     <state width="1089" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738977" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/33.23.1407.877@1440.23.1920.1057" timestamp="1575733394800" />
     <state width="1090" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331763" />
-    <state width="1506" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025285" />
-    <state width="1090" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139279" />
-    <state width="1089" height="351" key="GridCell.Tab.0.left" timestamp="1575570100385">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078918" />
+    <state width="1365" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783655" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205505" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575834869703" />
+    <state width="1362" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638044" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left" timestamp="1575834869700">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189342" />
     <state width="1089" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100385" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/30.23.1410.877@1440.23.1920.1057" timestamp="1575733471509" />
     <state width="1089" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738977" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/33.23.1407.877@1440.23.1920.1057" timestamp="1575733394798" />
     <state width="1090" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331761" />
-    <state width="1506" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025284" />
-    <state width="1090" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139278" />
-    <state width="1089" height="351" key="GridCell.Tab.0.right" timestamp="1575570100388">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078916" />
+    <state width="1365" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783654" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205501" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575834869700" />
+    <state width="1362" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638044" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right" timestamp="1575834869706">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189347" />
     <state width="1089" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/29.23.1411.877@29.23.1411.877" timestamp="1575570100388" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/30.23.1410.877@1440.23.1920.1057" timestamp="1575733471511" />
     <state width="1089" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1575567738978" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/33.23.1407.877@1440.23.1920.1057" timestamp="1575733394801" />
     <state width="1090" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/33.23.1407.877@33.23.1407.877" timestamp="1575566331764" />
-    <state width="1506" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575563025285" />
-    <state width="1090" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575566139279" />
-    <state x="275" y="123" key="Maven.ArtifactSearchDialog" timestamp="1575481088500">
-      <screen x="34" y="23" width="1406" height="877" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078919" />
+    <state width="1365" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783655" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205510" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575834869706" />
+    <state width="1362" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638045" />
+    <state width="1878" height="367" key="GridCell.Tab.1.bottom" timestamp="1575806136247">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575745378545" />
+    <state width="1878" height="367" key="GridCell.Tab.1.bottom/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575806136247" />
+    <state width="1878" height="367" key="GridCell.Tab.1.center" timestamp="1575806136245">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575745378543" />
+    <state width="1878" height="367" key="GridCell.Tab.1.center/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575806136245" />
+    <state width="1878" height="367" key="GridCell.Tab.1.left" timestamp="1575806136245">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575745378541" />
+    <state width="1878" height="367" key="GridCell.Tab.1.left/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575806136245" />
+    <state width="1878" height="367" key="GridCell.Tab.1.right" timestamp="1575806136246">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575745378544" />
+    <state width="1878" height="367" key="GridCell.Tab.1.right/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575806136246" />
+    <state x="1769" y="144" key="Maven.ArtifactSearchDialog" timestamp="1575782063001">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="275" y="123" key="Maven.ArtifactSearchDialog/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575481088500" />
+    <state x="1769" y="144" key="Maven.ArtifactSearchDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575782063001" />
     <state x="377" y="63" key="SettingsEditor" timestamp="1575562107650">
       <screen x="34" y="23" width="1406" height="877" />
     </state>
@@ -205,13 +362,25 @@
     <state x="377" y="63" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575562107650" />
     <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466642558" />
     <state x="379" y="63" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467600692" />
+    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1575781418437">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575781418437" />
     <state x="518" y="363" key="git4idea.ui.GitResetDialog" timestamp="1575468917084">
       <screen x="35" y="23" width="1405" height="877" />
     </state>
     <state x="518" y="363" key="git4idea.ui.GitResetDialog/1440.23.1920.1057/35.23.1405.877@35.23.1405.877" timestamp="1575468917084" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1575810083913">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575810083913" />
     <state x="1794" y="249" key="new project wizard" timestamp="1575468308786">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1794" y="249" key="new project wizard/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468308786" />
+    <state x="2065" y="258" width="670" height="158" key="search.everywhere.popup" timestamp="1575712035355">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2065" y="258" width="670" height="158" key="search.everywhere.popup/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575712035355" />
   </component>
 </project>

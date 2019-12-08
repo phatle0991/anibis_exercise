@@ -3,25 +3,36 @@ package pages;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
-import net.thucydides.core.annotations.DefaultUrl;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
+import util.Config;
+import util.ElementUtils;
+import util.SetUp;
 
-@DefaultUrl("https://stage.anibis.ch/fr/default.aspx")
 public class HomePage extends PageObject {
-    private WebDriver driver;
     @FindBy(xpath = "//a[@id='ctl00_Header1_ctlHeaderMetaBar_ucMainLinks_hypMyAnibis']")
     private WebElementFacade linkLogin;
+    @FindBy(xpath = "//a[@id='ctl00_Header1_ctlHeaderMetaBar_ucMainLinks_hypMyAnibis']/font/font")
+    private WebElementFacade lblUsrName;
+    @FindBy(xpath = "//a[@id='ctl00_phlContent_ctlHeaderSearchFilter_ctlKeywordAutocomplete_btnSearch']")
+    private WebElementFacade btnSearch;
 
-    //Constructor
-    public HomePage (WebDriver driver){
 
-        this.driver = driver;
-        //Initialise Elements
-        PageFactory.initElements(driver,this);
+    public void navToHomePage() throws Exception {
+        String HOME_URL = Config.getProperty("homeURL");
+        setDriver(SetUp.driver);
+        openUrl(HOME_URL);
+        String HOME_TITLE = Config.getProperty("homeTitle");
+        ElementUtils.waitPageLoad(getDriver(),HOME_TITLE);
     }
 
-    public void navigateToLoginPage(){
-        linkLogin.click();
+    public void navigateToLoginPage() throws Exception {
+        ElementUtils.tryClick(linkLogin);
+    }
+
+    public String verifySingedIn() throws Exception{
+        return ElementUtils.tryGetText(lblUsrName);
+    }
+
+    public void clickBtnSearch() throws Exception{
+        ElementUtils.tryClick(btnSearch);
     }
 }

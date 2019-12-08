@@ -24,8 +24,14 @@ public class Config {
     }
 
     //Return property value based on input Property Keyword
-    public static String getProperty(String propKeyWord) throws Exception{
-        String propValue = loadConfigFile().getProperty(propKeyWord);
+    public static String getProperty(String propKeyWord){
+        String propValue = null;
+        try {
+            propValue = loadConfigFile().getProperty(propKeyWord);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Util.printLog("[INFO] Get property " + propKeyWord + " = " + propValue);
         return propValue;
     }
 }

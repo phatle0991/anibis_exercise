@@ -1,7 +1,7 @@
 /Users/macair/IdeaProjects/anibis_exercise/src/main/java/util/SetUp.java
-/Users/macair/IdeaProjects/anibis_exercise/src/main/java/util/ElementTry.java
+/Users/macair/IdeaProjects/anibis_exercise/src/main/java/util/ElementUtils.java
 /Users/macair/IdeaProjects/anibis_exercise/src/main/java/util/Config.java
-/Users/macair/IdeaProjects/anibis_exercise/src/main/java/util/TearDown.java
+/Users/macair/IdeaProjects/anibis_exercise/src/main/java/util/Util.java
 /Users/macair/IdeaProjects/anibis_exercise/src/main/java/pages/HomePage.java
 /Users/macair/IdeaProjects/anibis_exercise/src/main/java/pages/LoginPage.java
 /Users/macair/IdeaProjects/anibis_exercise/src/main/java/pages/SearchResultPage.java

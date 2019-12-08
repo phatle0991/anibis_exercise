@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Verify Login Features","Customer can't login with incorrect User Email or non-Existed User Email","FAILURE","2019-12-08T21:18:15.979+07:00[Asia/Ho_Chi_Minh]","0.0","230.49"

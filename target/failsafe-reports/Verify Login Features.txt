@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Verify Login Features
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 249.725 s <<< FAILURE! - in Verify Login Features
+Cursor is focused on User Email field by default(Verify Login Features)  Time elapsed: 19.204 s  <<< FAILURE!
+java.lang.AssertionError: [Error] Cursor is not focused on User Email
+
+Customer can't login with incorrect User Email or non-Existed User Email(Verify Login Features)  Time elapsed: 29.67 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Votre compte d’utilisateur anibis a été supprimé. Veuillez vous adresser à notre service client]> but was:<[]>
+
