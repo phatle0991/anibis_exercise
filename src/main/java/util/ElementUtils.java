@@ -6,6 +6,7 @@ package util;
 import net.serenitybdd.core.pages.WebElementFacade;
 
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -149,14 +150,15 @@ public class ElementUtils {
     }
 
     //Verify Sort Result
-    public static void verifySortResult(List<WebElementFacade> elementFacade, String sortType){
+    public static void verifySortResult(List<WebElementFacade> elementFacade, String sortType) throws Exception{
         int previousItem = 0;
         for(WebElementFacade element: elementFacade){
             String currentItemStr = element.getText();
             //In Case Date - change Date to formate YYYYYMMDD
             if(sortType.equalsIgnoreCase("Plus récentes d'abord")){
-                SimpleDateFormat formatter = new SimpleDateFormat("YYYYMMDD");
-                currentItemStr = formatter.format(currentItemStr);
+                Date currentItemDate = new SimpleDateFormat("DD.MM.YYYY").parse(currentItemStr);
+                SimpleDateFormat dateFormat = new SimpleDateFormat("YYYYMMDD");
+                currentItemStr = dateFormat.format(currentItemDate).toString();
             }
             //In Case Price
             else {

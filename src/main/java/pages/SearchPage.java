@@ -107,6 +107,7 @@ public class SearchPage extends PageObject{
 
     public void selectSort(String sortType) throws Exception{
         ElementUtils.tryClick(cbSort);
+        Thread.sleep(Integer.parseInt(Config.getProperty("sleep2")));
         ElementUtils.selectByListWebElementFacade(listSortOptions,sortType,"equal");
     }
 
