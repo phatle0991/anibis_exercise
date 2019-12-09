@@ -11,7 +11,7 @@ Framework Architecture
 		|_src/main/java
 		|	|_config
 		|	|   |_config.properties
-        |   |   |_serenity.properties
+        |	|   |_serenity.properties
 		|	|_pages
 		|	|   |_HomePage.class
 		|	|	|_LoginPage.class
@@ -48,17 +48,16 @@ Framework Architecture
 * **src/main/java/pages** - all the Pages in POM goes here.
 
 * **src/main/java/util** - Utilize functions
-+ Try to click/fill/getText/waitPageLoad/waitElementPresent..... Web Element Facade to prevent timed out issue, stop to try after maxTries times.
-+ Select option/link/item from List<WebElementFacde>
+> Try to click/fill/getText/waitPageLoad/waitElementPresent..... Web Element Facade to prevent timed out issue, stop to try after maxTries times.
+> Select option/link/item from List<WebElementFacde>
 
 * **src/test/java/stepdefs** - you can define step defintion under this package for your feature steps.
 
-* **src/test/java/testrunner** 
-+ This package contains JUnit Cucumber runner where you can 
+* **src/test/java/testrunner** - This package contains JUnit Cucumber runner where you can 
 configure your glue code location (step defintions). 
-**+ This test framework support cross browser test**, just config which browser you want to run in glue. SetUp hook will be run to initilize WebDriver Depend on which browser you had selected
+>** This test framework support cross browser test**, just config which browser you want to run in glue. SetUp hook will be run to initilize WebDriver Depend on which browser you had selected
 **i.e I want to run Test with Chrome browser**: glue = {"stepdefs","testrunner.hook","testrunner.browsers.**chrome**"}
-**+ Hooks.class** where you can configure all before and after Test with @After/@Before annotation. It will be run after each scenario.
+>** Hooks.class** where you can configure all before and after Test with @After/@Before annotation. It will be run after each scenario.
 
 * **src/test/resources/features** - all the cucumber features files (files .feature ext) goes here.
 
