@@ -7,21 +7,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.util.Date;
 
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Question;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.questions.WebDriverQuestion;
-import net.serenitybdd.screenplay.targets.Target;
-import net.serenitybdd.screenplay.waits.WaitUntil;
-import static net.serenitybdd.screenplay.GivenWhenThen.*;
-import static net.serenitybdd.screenplay.matchers.ConsequenceMatchers.displays;
-import static net.serenitybdd.screenplay.matchers.ReportedErrorMessages.reportsErrors;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
-import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
 public class Util {
@@ -30,6 +20,13 @@ public class Util {
     public static void printLog(String msg){
         LocalDateTime now = LocalDateTime.now();
         System.out.println(now + " " + msg);
+    }
+
+    public static String covertStrToDate (String dateStr, String format) throws Exception {
+        Date currentItemDate = new SimpleDateFormat("DD.MM.YYYY").parse(dateStr);
+        SimpleDateFormat dateFormat = new SimpleDateFormat(format);
+        String result = dateFormat.format(currentItemDate).toString();
+        return result;
     }
 
     public static void takeScreenshotAtEndOfTest(WebDriver driver, String screenshotName) {

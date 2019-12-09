@@ -8,6 +8,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import util.Util;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
@@ -128,13 +129,14 @@ public class ElementUtils {
 
     //Select by list. We have 2 kind of search type: equal | contain
     public static void selectByListWebElementFacade(List<WebElementFacade> elementFacade, String option, String searchType) throws Exception {
+        Thread.sleep(SLEEP1);
         for(WebElementFacade element: elementFacade){
             String currentListName = element.getText();
             //In case search type = equal
             if (searchType.equalsIgnoreCase("equal")){
                 if (currentListName.equalsIgnoreCase(option)) {
                     ElementUtils.tryClick(element);
-                    Util.printLog("[INFO] Search type = equal. " + currentListName + " category has been selected successfully");
+                    Util.printLog("[INFO] " + currentListName + " category has been selected successfully. Search type = equal");
                     break;
                 }
             }
@@ -142,7 +144,7 @@ public class ElementUtils {
             else {
                 if (currentListName.contains(option)) {
                     ElementUtils.tryClick(element);
-                    Util.printLog("[INFO] Search type = contain. " + currentListName + " category has been selected successfully");
+                    Util.printLog("[INFO] " + currentListName + " category has been selected successfully. Search type = contain");
                     break;
                 }
             }
@@ -156,15 +158,17 @@ public class ElementUtils {
             String currentItemStr = element.getText();
             //In Case Date - change Date to formate YYYYYMMDD
             if(sortType.equalsIgnoreCase("Plus récentes d'abord")){
-                Date currentItemDate = new SimpleDateFormat("DD.MM.YYYY").parse(currentItemStr);
-                SimpleDateFormat dateFormat = new SimpleDateFormat("YYYYMMDD");
-                currentItemStr = dateFormat.format(currentItemDate).toString();
+                currentItemStr = Util.covertStrToDate(currentItemStr,"YYYYMMDD");
             }
-            //In Case Price
+            //In Case Price - Replace symbol, characters
             else {
                 currentItemStr = currentItemStr.replaceAll("[^0-9]", "");
             }
 
+            if(currentItemStr.isEmpty()){
+                currentItemStr = "0";
+            }
+            //Convert current item to int
             int currentItem = Integer.parseInt(currentItemStr);
             if(previousItem != 0 && previousItem != currentItem) {
                 if (sortType.equalsIgnoreCase("Plus récentes d'abord")) {

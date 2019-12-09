@@ -1,10 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: Verify Login Features
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 249.725 s <<< FAILURE! - in Verify Login Features
-Cursor is focused on User Email field by default(Verify Login Features)  Time elapsed: 19.204 s  <<< FAILURE!
+Tests run: 11, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 264.496 s <<< FAILURE! - in Verify Login Features
+Cursor is focused on User Email field by default(Verify Login Features)  Time elapsed: 14.644 s  <<< FAILURE!
 java.lang.AssertionError: [Error] Cursor is not focused on User Email
 
-Customer can't login with incorrect User Email or non-Existed User Email(Verify Login Features)  Time elapsed: 29.67 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Votre compte d’utilisateur anibis a été supprimé. Veuillez vous adresser à notre service client]> but was:<[]>
+Customer can login successfully with valid User Email and Password(Verify Login Features)  Time elapsed: 45.709 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: 
+Expected condition failed: waiting for LoginPage.txtPwd to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Air.local', ip: 'fe80:0:0:0:88b:c5e7:28bd:8ff4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_232'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LoginPage.txtPwd to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Air.local', ip: 'fe80:0:0:0:88b:c5e7:28bd:8ff4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_232'
+Driver info: driver.version: unknown
+
+Customer can't login with incorrect User Email or non-Existed User Email(Verify Login Features)  Time elapsed: 10.311 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Air.local', ip: 'fe80:0:0:0:88b:c5e7:28bd:8ff4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_232'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/09/z7qm438d67l...}, goog:chromeOptions: {debuggerAddress: localhost:60602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dac562cc9d6ddeb6cb9ebce1df7d9924
 

@@ -1,5 +1,4 @@
 util/Util.class
-pages/SearchResultPage.class
 pages/HomePage.class
 util/ElementUtils.class
 util/Config.class

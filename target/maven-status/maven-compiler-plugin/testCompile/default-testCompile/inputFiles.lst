@@ -1,10 +1,9 @@
 /Users/macair/IdeaProjects/anibis_exercise/src/test/java/stepdefs/LoginStepDefs.java
+/Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/TestRunner.java
+/Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/browsers/edge/EdgeInit.java
 /Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/browsers/ie/IEInit.java
 /Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/browsers/firefox/FirefoxInit.java
 /Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/browsers/chrome/ChromeInit.java
 /Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/hook/Hooks.java
-/Users/macair/IdeaProjects/anibis_exercise/src/test/java/stepdefs/SearchResultStepDefs.java
-/Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/browsers/edged/EdgedInit.java
-/Users/macair/IdeaProjects/anibis_exercise/src/test/java/testrunner/TestRunnerSearch.java
-/Users/macair/IdeaProjects/anibis_exercise/src/test/java/stepdefs/CommonStepDefs.java
+/Users/macair/IdeaProjects/anibis_exercise/src/test/java/stepdefs/SearchStepDefs.java
 /Users/macair/IdeaProjects/anibis_exercise/src/test/java/stepdefs/HomeStepDefs.java

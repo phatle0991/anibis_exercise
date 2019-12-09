@@ -1,12 +1,8 @@
 package pages;
 
-import gherkin.lexer.El;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
 import util.Config;
 import util.ElementUtils;
 import util.SetUp;
@@ -43,13 +39,13 @@ public class SearchPage extends PageObject{
     //Result grid view
     @FindBy(xpath = "//ul[@class='listing-list serp-list clickable-cards']/li//li[@class='horizontal-list-item item-date']")
     private List<WebElementFacade> listSearchResultDate;
-    @FindBy(xpath = "//ul[@class='listing-list serp-list clickable-cards']/li//div[@id='ctl00_phlContent_ResList_ctlDetail_ctlAdvertList_ctl01_divPrice']")
+    @FindBy(xpath = "//ul[@class='listing-list serp-list clickable-cards']/li//div[@class='listing-price']")
     private List<WebElementFacade> listSearchResultPrice;
     @FindBy(xpath = "//li[@class='active']//span[@class='button-text']")
     private WebElementFacade btnActivePage;
     @FindBy(xpath = "//div[@class='ghost-select sort-by-select']")
     private WebElementFacade cbSort;
-    @FindBy(xpath = "//div[@class='ghost-select sort-by-select']//option")
+    @FindBy(xpath = "//div[@class='ghost-select sort-by-select focus']//option")
     private List<WebElementFacade> listSortOptions;
 
     //Selenium Actions
@@ -107,7 +103,6 @@ public class SearchPage extends PageObject{
 
     public void selectSort(String sortType) throws Exception{
         ElementUtils.tryClick(cbSort);
-        Thread.sleep(Integer.parseInt(Config.getProperty("sleep2")));
         ElementUtils.selectByListWebElementFacade(listSortOptions,sortType,"equal");
     }
 

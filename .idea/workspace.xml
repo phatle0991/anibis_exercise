@@ -3,9 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CommonStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/SearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/SearchStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/anibis_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/anibis_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ElementUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ElementUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/CommonStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/SearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/SearchStepDefs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +177,7 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2194" y="265" key="Github.UntrackedFilesDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466902595" />
-    <state width="1878" height="367" key="GridCell.Tab.0.bottom" timestamp="1575837243529">
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom" timestamp="1575870436962">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189348" />
@@ -174,9 +189,9 @@
     <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078921" />
     <state width="1365" height="351" key="GridCell.Tab.0.bottom/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783656" />
     <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205515" />
-    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575837243529" />
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575870436962" />
     <state width="1362" height="367" key="GridCell.Tab.0.bottom/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638046" />
-    <state width="1878" height="367" key="GridCell.Tab.0.center" timestamp="1575837243528">
+    <state width="1878" height="367" key="GridCell.Tab.0.center" timestamp="1575870436960">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189346" />
@@ -188,9 +203,9 @@
     <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078918" />
     <state width="1365" height="351" key="GridCell.Tab.0.center/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783655" />
     <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205505" />
-    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575837243528" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575870436960" />
     <state width="1362" height="367" key="GridCell.Tab.0.center/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638044" />
-    <state width="1878" height="367" key="GridCell.Tab.0.left" timestamp="1575837243527">
+    <state width="1878" height="367" key="GridCell.Tab.0.left" timestamp="1575870436958">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189342" />
@@ -202,9 +217,9 @@
     <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078916" />
     <state width="1365" height="351" key="GridCell.Tab.0.left/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783654" />
     <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205501" />
-    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575837243527" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575870436958" />
     <state width="1362" height="367" key="GridCell.Tab.0.left/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638044" />
-    <state width="1878" height="367" key="GridCell.Tab.0.right" timestamp="1575837243529">
+    <state width="1878" height="367" key="GridCell.Tab.0.right" timestamp="1575870436961">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1575733189347" />
@@ -216,7 +231,7 @@
     <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575826078919" />
     <state width="1365" height="351" key="GridCell.Tab.0.right/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575646783655" />
     <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575834205510" />
-    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575837243529" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575870436961" />
     <state width="1362" height="367" key="GridCell.Tab.0.right/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575804638045" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom" timestamp="1575806136247">
       <screen x="1440" y="23" width="1920" height="1057" />
@@ -250,10 +265,10 @@
     <state x="377" y="63" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575562107650" />
     <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466642558" />
     <state x="379" y="63" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467600692" />
-    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1575835259849">
+    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1575862277120">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575835259849" />
+    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575862277120" />
     <state x="518" y="363" key="git4idea.ui.GitResetDialog" timestamp="1575468917084">
       <screen x="35" y="23" width="1405" height="877" />
     </state>

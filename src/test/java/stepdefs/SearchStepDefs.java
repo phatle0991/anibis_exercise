@@ -83,6 +83,10 @@ public class SearchStepDefs {
     @When("^I select sort = \"([^\"]*)\"$")
     public void iSortSearchResult(String sortType) throws Exception{
         searchPage.selectSort(sortType);
+    }
+
+    @Then("I verify sort = \"([^\"]*)\" result$")
+    public void iVerifySortResult(String sortType)throws Exception{
         searchPage.verifySort(sortType);
     }
 }

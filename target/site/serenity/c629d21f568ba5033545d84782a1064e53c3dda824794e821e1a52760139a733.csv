@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Verify HomePage","Customer can navigate to Homepage Successfully","ERROR","2019-12-08T21:48:05.415+07:00[Asia/Ho_Chi_Minh]","0.0","1.22"
+"Verify HomePage","Customer can navigate to Login Page successfully","SUCCESS","2019-12-09T12:48:07.132+07:00[Asia/Ho_Chi_Minh]","0.0","24.22"
+"Verify HomePage","Customer can navigate to Search Page successfully","SUCCESS","2019-12-09T12:48:31.977+07:00[Asia/Ho_Chi_Minh]","0.0","20.6"

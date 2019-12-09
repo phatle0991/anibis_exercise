@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-12-2019 03:34</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-12-2019 12:21</span>
     <br style="clear:left"/>
 </div>
 
@@ -181,9 +181,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Customer Can Search With Filter
+                                <span class="failing-color">Customer Can Search With Filter
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -200,20 +200,63 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: price downExpected: a value greater than (1050) but: (1016) was less than (1050)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>util.ElementUtils.verifySortResult(ElementUtils.java:201)<br />pages.SearchPage.verifySort(SearchPage.java:114)<br />stepdefs.SearchStepDefs.iVerifySortResult(SearchStepDefs.java:90)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7487632828526919165.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="d759aebad8c9689f6b7f31e9bf5195a13ef72d96a10d4bc5541525975eb4d391.png" title=" When I select Search Category = &quot;Immobilier&quot;" width="1920"/>
-                <img src="58db220b7ff21dee267bc29f05277921ed72f49fa3b194cd36b9a65590bda213.png" title=" And I fill out Location = &quot;Zurich&quot;" width="1920"/>
-                <img src="c88f3dfe9b0e5f09db7ba70e51309dd2506851fcd44729c1c8b2e33daff2a3ed.png" title=" And I select Distance = &quot;10 km&quot;" width="1920"/>
-                <img src="2702709da7039430a3c0525373081770ca7232525c37c0737a8cac987eb27f30.png" title=" And I click on Apply Location button" width="1920"/>
-                <img src="bd9eb756cf513f72e4e318e27c4d949ba22a859cd1fedc010eb90f23da79c5c9.png" title=" And I fill out Price From = &quot;1000&quot;" width="1920"/>
-                <img src="acbb9c2fbf53782fbfecc7e5c71cdc330914bf73fab6b6f463d65c690570582d.png" title=" And I fill out Price To = &quot;5000&quot;" width="1920"/>
-                <img src="e77390454f3be449aaf6d5f7c7aee8c87b5258caf5d589a902da894e02ae9c41.png" title=" And I click on Apply Price button" width="1920"/>
-                <img src="e77390454f3be449aaf6d5f7c7aee8c87b5258caf5d589a902da894e02ae9c41.png" title=" Then I verify default page = 1" width="1920"/>
-                <img src="e77390454f3be449aaf6d5f7c7aee8c87b5258caf5d589a902da894e02ae9c41.png" title=" Then I verify Search Result default items" width="1920"/>
-                <img src="bf0692f8eaf4bf5431a5058f984e06592338c8449490c26865a0a35c2499bd36.png" title=" When I select sort = &quot;Plus r&eacute;centes d'abord&quot;" width="1920"/>
-                <img src="347bf011cf02cb2feff864e779e3a9e00db2bd0131b5e62fd7ffae94b6a50070.png" title=" When I select sort = &quot;Prix croissant&quot;" width="1920"/>
-                <img src="33cef0dd13e72021eab37e4736dfb92b9a8bb1b7ef504b2e71b139c7f631ddfa.png" title=" When I select sort = &quot;Prix d&eacute;croissant&quot;: <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="6e4e330bdb60b113cec482ed9b1c91cc8a7699499b15251f4fe4a9882b6cbabb.png" title=" When I select Search Category = &quot;Immobilier&quot;" width="1920"/>
+                <img src="2d2563f946d18db8889825b0e90ee85f6c45cfd87e51ecfdc960f0c79845ed22.png" title=" And I fill out Location = &quot;Zurich&quot;" width="1920"/>
+                <img src="bf3c5c7b51647ef6988e8f62abfcf2f622e751834824afd03927813673c2da47.png" title=" And I select Distance = &quot;10 km&quot;" width="1920"/>
+                <img src="e6e60d400898d67a85f1843c188c89f17ff2610a8ecfea24c658a57a67399c4c.png" title=" And I click on Apply Location button" width="1920"/>
+                <img src="c473c0f6a220f4a81667088c25cbe1df82d0f62eaffb9dccb178d2008ca1f3d5.png" title=" And I fill out Price From = &quot;1000&quot;" width="1920"/>
+                <img src="5b2e72d21149f4f106bec45093225ba2bfa91d7ed84815727b6d42c9b2c100d6.png" title=" And I fill out Price To = &quot;5000&quot;" width="1920"/>
+                <img src="5b2e72d21149f4f106bec45093225ba2bfa91d7ed84815727b6d42c9b2c100d6.png" title=" And I click on Apply Price button" width="1920"/>
+                <img src="5b2e72d21149f4f106bec45093225ba2bfa91d7ed84815727b6d42c9b2c100d6.png" title=" Then I verify default page = 1" width="1920"/>
+                <img src="5b2e72d21149f4f106bec45093225ba2bfa91d7ed84815727b6d42c9b2c100d6.png" title=" Then I verify Search Result default items" width="1920"/>
+                <img src="4cd1b07ce11ed4d82b100bf4a6a7d308a37ff259a51f8044c40f13da2f79c504.png" title=" When I select sort = &quot;Plus r&eacute;centes d'abord&quot;" width="1920"/>
+                <img src="4cd1b07ce11ed4d82b100bf4a6a7d308a37ff259a51f8044c40f13da2f79c504.png" title=" Then I verify sort = &quot;Plus r&eacute;centes d'abord&quot; result" width="1920"/>
+                <img src="247bb80b350539bc929989f14078b07e34c47019d2df0b55a6fc480ef832a3e3.png" title=" When I select sort = &quot;Prix croissant&quot;" width="1920"/>
+                <img src="247bb80b350539bc929989f14078b07e34c47019d2df0b55a6fc480ef832a3e3.png" title=" Then I verify sort = &quot;Prix croissant&quot; result" width="1920"/>
+                <img src="f0de7af8c14ab4f09ecf18dfcbd7c64e4828cdf0a978373784cb38d85c89a4d6.png" title=" When I select sort = &quot;Prix d&eacute;croissant&quot;" width="1920"/>
+                <img src="f0de7af8c14ab4f09ecf18dfcbd7c64e4828cdf0a978373784cb38d85c89a4d6.png" title=" Then I verify sort = &quot;Prix d&eacute;croissant&quot; result" width="1920"/>
+                <img src="f0de7af8c14ab4f09ecf18dfcbd7c64e4828cdf0a978373784cb38d85c89a4d6.png" title=" Verify sort: Prix d&eacute;croissant: <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 

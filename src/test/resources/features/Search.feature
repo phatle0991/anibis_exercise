@@ -17,6 +17,10 @@ Feature: Verify Search Features
     Then I verify default page = 1
     Then I verify Search Result default items
     When I select sort = "Plus récentes d'abord"
+    Then I verify sort = "Plus récentes d'abord" result
     When I select sort = "Prix croissant"
+    Then I verify sort = "Prix croissant" result
     When I select sort = "Prix décroissant"
+    Then I verify sort = "Prix décroissant" result
+
 

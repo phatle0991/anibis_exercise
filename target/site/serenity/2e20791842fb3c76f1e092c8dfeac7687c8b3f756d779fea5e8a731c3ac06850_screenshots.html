@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-12-2019 21:37</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-12-2019 12:50</span>
     <br style="clear:left"/>
 </div>
 
@@ -181,9 +181,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Customer can't login with incorrect User Email or non-Existed User Email
+                                <span class="error-color">Customer can't login with incorrect User Email or non-Existed User Email
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -199,85 +199,116 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">When I enter User Email = "&lt;userEmail&gt;"<br>And I click on Login button<br>And I verify User Email error message = "&lt;expectedErrMsg&gt;"<br>And I verify User Email error message = "&lt;expectedErrMsg&gt;" color</div>
+        <div class="scenario">When I enter User Email = "&lt;userEmail&gt;"<br>And I click on Email Validation button<br>And I verify User Email error message = "&lt;expectedErrMsg&gt;"<br>And I verify User Email error message = "&lt;expectedErrMsg&gt;" color</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such window exception: no such window: window was already closed</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchWindowException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>util.ElementUtils.waitPageLoad(ElementUtils.java:97)<br />pages.LoginPage.openLoginPage(LoginPage.java:35)<br />stepdefs.LoginStepDefs.iOpenLoginPage(LoginStepDefs.java:24)<br />✽.I open Login Page(features/Login.feature:5)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="cf3cd5ae881f77b8a28493de06695642518d833e45dcb2ee948f9d410c4975d3.png" title=" Example: {userEmail=buyer.nvg01@gmail.com, expectedErrMsg=}" width="1920"/>
-                <img src="cf3cd5ae881f77b8a28493de06695642518d833e45dcb2ee948f9d410c4975d3.png" title=" When I enter User Email = &quot;buyer.nvg01@gmail.com&quot;" width="1920"/>
-                <img src="cf3cd5ae881f77b8a28493de06695642518d833e45dcb2ee948f9d410c4975d3.png" title=" And I click on Login button" width="1920"/>
-                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="fdc7992679dc7d88d4d5d80b68cc74c5cd8626de4f319582b72c4e167bfd8f6b.png" title=" Example: {userEmail=buyer.nvg01@gmail.com, expectedErrMsg=}" width="1920"/>
+                <img src="fdc7992679dc7d88d4d5d80b68cc74c5cd8626de4f319582b72c4e167bfd8f6b.png" title=" When I enter User Email = &quot;buyer.nvg01@gmail.com&quot;" width="1920"/>
+                <img src="fdc7992679dc7d88d4d5d80b68cc74c5cd8626de4f319582b72c4e167bfd8f6b.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I click on Email Validation button (completed)" width="1920"/>
                 <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot;" width="1920"/>
                 <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot; (completed)" width="1920"/>
                 <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot; color" width="1920"/>
                 <img src="6bc96d227651305dc13818efe76266cce535beaee768afce826b16dbf7e7548b.png" title=" And I verify User Email error message = &quot;&quot; color (completed)" width="1920"/>
-                <img src="6b0155907d983087644fc3f11eb135293be52e46dd7c3b035d391d74798e26a0.png" title=" Example: {userEmail=a@gmail.com, expectedErrMsg=Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client}" width="1920"/>
-                <img src="6b0155907d983087644fc3f11eb135293be52e46dd7c3b035d391d74798e26a0.png" title=" When I enter User Email = &quot;a@gmail.com&quot;" width="1920"/>
-                <img src="6b0155907d983087644fc3f11eb135293be52e46dd7c3b035d391d74798e26a0.png" title=" And I click on Login button" width="1920"/>
-                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I click on Login button (completed)" width="1920"/>
+                <img src="99a15477ea183502164037a38a9f73107aacfd94ea1ac9a4a126c38ef36fc7c3.png" title=" Example: {userEmail=a@gmail.com, expectedErrMsg=Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client}" width="1920"/>
+                <img src="99a15477ea183502164037a38a9f73107aacfd94ea1ac9a4a126c38ef36fc7c3.png" title=" When I enter User Email = &quot;a@gmail.com&quot;" width="1920"/>
+                <img src="99a15477ea183502164037a38a9f73107aacfd94ea1ac9a4a126c38ef36fc7c3.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I click on Email Validation button (completed)" width="1920"/>
                 <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot;" width="1920"/>
                 <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot; (completed)" width="1920"/>
                 <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot; color" width="1920"/>
                 <img src="c3a5de1700596b6e62f632820fe9e1c1666ec6e821031185c39dc2b5844ed6ce.png" title=" And I verify User Email error message = &quot;Votre compte d&rsquo;utilisateur anibis a &eacute;t&eacute; supprim&eacute;. Veuillez vous adresser &agrave; notre service client&quot; color (completed)" width="1920"/>
-                <img src="e3b35eefd5145625cac4d2e55ae9af2a7a5a7fcb1d7b99169a0802273005e6c5.png" title=" Example: {userEmail=aaaaaaaa@gmail.com, expectedErrMsg=}" width="1920"/>
-                <img src="e3b35eefd5145625cac4d2e55ae9af2a7a5a7fcb1d7b99169a0802273005e6c5.png" title=" When I enter User Email = &quot;aaaaaaaa@gmail.com&quot;" width="1920"/>
-                <img src="e3b35eefd5145625cac4d2e55ae9af2a7a5a7fcb1d7b99169a0802273005e6c5.png" title=" And I click on Login button" width="1920"/>
-                <img src="f172fc0f51d98278ad89675efb689695da4225f2f2e52e7ccad8b3140dfef55b.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="f172fc0f51d98278ad89675efb689695da4225f2f2e52e7ccad8b3140dfef55b.png" title=" And I verify User Email error message = &quot;&quot;" width="1920"/>
-                <img src="158d62b67d8569565ad7bff9106effdd8dd5da209855edb88e918643bfa304c9.png" title=" And I verify User Email error message = &quot;&quot; (completed)" width="1920"/>
-                <img src="158d62b67d8569565ad7bff9106effdd8dd5da209855edb88e918643bfa304c9.png" title=" And I verify User Email error message = &quot;&quot; color" width="1920"/>
-                <img src="158d62b67d8569565ad7bff9106effdd8dd5da209855edb88e918643bfa304c9.png" title=" And I verify User Email error message = &quot;&quot; color (completed)" width="1920"/>
-                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" Example: {userEmail=, expectedErrMsg=N&rsquo;oubliez pas cette information}" width="1920"/>
-                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" When I enter User Email = &quot;&quot;" width="1920"/>
-                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I click on Login button" width="1920"/>
-                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot;" width="1920"/>
-                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; (completed)" width="1920"/>
-                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; color" width="1920"/>
-                <img src="2fd1eabf4add298ca488746b89a9c61dee319914daffa63f04caf8dd30f34d12.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; color (completed)" width="1920"/>
-                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" Example: {userEmail=aaaaa, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
-                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" When I enter User Email = &quot;aaaaa&quot;" width="1920"/>
-                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" And I click on Login button" width="1920"/>
-                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
-                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
-                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
-                <img src="1bf7cc4279490390b75d92d0261cd110fc1c4d2a7b55926ee66a573bbc690bc7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
-                <img src="b4006b761a4a7da762b079fb71099a2b1244c95b489a3269ff4204b24364e8ef.png" title=" Example: {userEmail=@, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
-                <img src="b4006b761a4a7da762b079fb71099a2b1244c95b489a3269ff4204b24364e8ef.png" title=" When I enter User Email = &quot;@&quot;" width="1920"/>
-                <img src="b4006b761a4a7da762b079fb71099a2b1244c95b489a3269ff4204b24364e8ef.png" title=" And I click on Login button" width="1920"/>
-                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
-                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
-                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
-                <img src="4c15a82d0afaf3c70edbceb6957a9bf6d17f69afec5b91890889a09b2992115f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
-                <img src="871042280af2c8edfcb90fdfc0e88eac1b82f2776871b464643c40e8c8c5ab71.png" title=" Example: {userEmail=.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
-                <img src="871042280af2c8edfcb90fdfc0e88eac1b82f2776871b464643c40e8c8c5ab71.png" title=" When I enter User Email = &quot;.com&quot;" width="1920"/>
-                <img src="871042280af2c8edfcb90fdfc0e88eac1b82f2776871b464643c40e8c8c5ab71.png" title=" And I click on Login button" width="1920"/>
-                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
-                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
-                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
-                <img src="f330967c9dbe1cc321062d584105b205d3ab46d34ea629914e76fed4af9d942d.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
-                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" Example: {userEmail=@.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
-                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" When I enter User Email = &quot;@.com&quot;" width="1920"/>
-                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I click on Login button" width="1920"/>
-                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
-                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
-                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
-                <img src="a05f7cb96fdef08901a274e1d74f50f064c4c1ff8626c09b17e74459e1372bd9.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
-                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" Example: {userEmail=a@.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
-                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" When I enter User Email = &quot;a@.com&quot;" width="1920"/>
-                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I click on Login button" width="1920"/>
-                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I click on Login button (completed)" width="1920"/>
-                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
-                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
-                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
-                <img src="3edccd51fe6bfee13afa780d8822433f75fe5edde896bb21dcea5862d1b1c538.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="b879eb5aa52190b6286150dd849ce9885a7307cf498e3be49e0bf3c075621d61.png" title=" Example: {userEmail=aaaaaaaa@gmail.com, expectedErrMsg=}" width="1404"/>
+                <img src="b879eb5aa52190b6286150dd849ce9885a7307cf498e3be49e0bf3c075621d61.png" title=" When I enter User Email = &quot;aaaaaaaa@gmail.com&quot;" width="1404"/>
+                <img src="b879eb5aa52190b6286150dd849ce9885a7307cf498e3be49e0bf3c075621d61.png" title=" And I click on Email Validation button" width="1404"/>
+                <img src="41113297e57c71af547d80eb04e93585673d9ea091858e6ef934a4eb782ba59d.png" title=" And I click on Email Validation button (completed)" width="1404"/>
+                <img src="41113297e57c71af547d80eb04e93585673d9ea091858e6ef934a4eb782ba59d.png" title=" And I verify User Email error message = &quot;&quot;" width="1404"/>
+                <img src="ea72a8fa36ce3c810b3ef4e70a1d9cc1abd6e07636b1d347c2fb8f19360449a9.png" title=" And I verify User Email error message = &quot;&quot; (completed)" width="1404"/>
+                <img src="ea72a8fa36ce3c810b3ef4e70a1d9cc1abd6e07636b1d347c2fb8f19360449a9.png" title=" And I verify User Email error message = &quot;&quot; color" width="1404"/>
+                <img src="ea72a8fa36ce3c810b3ef4e70a1d9cc1abd6e07636b1d347c2fb8f19360449a9.png" title=" And I verify User Email error message = &quot;&quot; color (completed)" width="1404"/>
+                <img src="6370d2fe34e05517f7768429ad9c2105e2303793a52387cfa9e99421efe87a5a.png" title=" Example: {userEmail=, expectedErrMsg=N&rsquo;oubliez pas cette information}" width="1920"/>
+                <img src="6370d2fe34e05517f7768429ad9c2105e2303793a52387cfa9e99421efe87a5a.png" title=" When I enter User Email = &quot;&quot;" width="1920"/>
+                <img src="6370d2fe34e05517f7768429ad9c2105e2303793a52387cfa9e99421efe87a5a.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I click on Email Validation button (completed)" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot;" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; (completed)" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; color" width="1920"/>
+                <img src="437ba2d88c9a5e95951bff1568668ddb1b2e1ef67c819f79f2cd38ee5a66e347.png" title=" And I verify User Email error message = &quot;N&rsquo;oubliez pas cette information&quot; color (completed)" width="1920"/>
+                <img src="3fa72d839da63c418de2087ac6b35c808d2aa56397041053f11c96514b325e41.png" title=" Example: {userEmail=aaaaa, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="3fa72d839da63c418de2087ac6b35c808d2aa56397041053f11c96514b325e41.png" title=" When I enter User Email = &quot;aaaaa&quot;" width="1920"/>
+                <img src="3fa72d839da63c418de2087ac6b35c808d2aa56397041053f11c96514b325e41.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="4d9a8e3d50b7e88db68b564bf43d59ef6da9e82cd31f27f2bf8854bb303d849f.png" title=" And I click on Email Validation button (completed)" width="1920"/>
+                <img src="4d9a8e3d50b7e88db68b564bf43d59ef6da9e82cd31f27f2bf8854bb303d849f.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="cf2d26a11024911488722f78415fa645bbdada25f09e77af2f46a75a84e6e4c7.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="c241f63a90ca09a4c5626f682bcb03de6c8ec53a6dde193be29faf6dfb044588.png" title=" Example: {userEmail=@, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="c241f63a90ca09a4c5626f682bcb03de6c8ec53a6dde193be29faf6dfb044588.png" title=" When I enter User Email = &quot;@&quot;" width="1920"/>
+                <img src="c241f63a90ca09a4c5626f682bcb03de6c8ec53a6dde193be29faf6dfb044588.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="2a6e43b2ecc49f0cbba3e7d2cf37db4761c6b05dfdcf6102971f7a5850ad9af5.png" title=" And I click on Email Validation button (completed)" width="1920"/>
+                <img src="2a6e43b2ecc49f0cbba3e7d2cf37db4761c6b05dfdcf6102971f7a5850ad9af5.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="7a50addbc05d80ea8231a8b2548f7ea047d6a8e974852f478c5c897aa48b4578.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="7a50addbc05d80ea8231a8b2548f7ea047d6a8e974852f478c5c897aa48b4578.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="2a6e43b2ecc49f0cbba3e7d2cf37db4761c6b05dfdcf6102971f7a5850ad9af5.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="311aa03fd7630732365faa7fe4927566909696eb938b884c7c50cd395358c7c6.png" title=" Example: {userEmail=@.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="311aa03fd7630732365faa7fe4927566909696eb938b884c7c50cd395358c7c6.png" title=" When I enter User Email = &quot;@.com&quot;" width="1920"/>
+                <img src="311aa03fd7630732365faa7fe4927566909696eb938b884c7c50cd395358c7c6.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I click on Email Validation button (completed)" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="f571db04b35bc9c607f4bdfe9a9128c5d4ca86975ea530c206c12e1752fa811c.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed)" width="1920"/>
+                <img src="94ca6fe379ac5de5f95ce835dc2f547e1baf20a8cdbdd3a4f2f46fd708d06076.png" title=" Example: {userEmail=a@.com, expectedErrMsg=Indiquez votre adresse e-mail}" width="1920"/>
+                <img src="94ca6fe379ac5de5f95ce835dc2f547e1baf20a8cdbdd3a4f2f46fd708d06076.png" title=" When I enter User Email = &quot;a@.com&quot;" width="1920"/>
+                <img src="94ca6fe379ac5de5f95ce835dc2f547e1baf20a8cdbdd3a4f2f46fd708d06076.png" title=" And I click on Email Validation button" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I click on Email Validation button (completed)" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot;" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; (completed)" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color" width="1920"/>
+                <img src="e5939523b474082e70131c8533131c20b00003b8677017ebb1617aaef1ae4a78.png" title=" And I verify User Email error message = &quot;Indiquez votre adresse e-mail&quot; color (completed): <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 

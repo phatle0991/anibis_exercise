@@ -1,10 +1,6 @@
-stepdefs/SearchResultStepDefs.class
 testrunner/browsers/firefox/FirefoxInit.class
 testrunner/browsers/chrome/ChromeInit.class
 testrunner/browsers/ie/IEInit.class
 testrunner/hook/Hooks.class
-testrunner/TestRunnerSearch.class
 stepdefs/HomeStepDefs.class
-testrunner/browsers/edged/EdgedInit.class
 stepdefs/LoginStepDefs.class
-stepdefs/CommonStepDefs.class

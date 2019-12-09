@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Verify Login Features","Cursor is focused on User Email field by default","FAILURE","2019-12-08T21:17:56.622+07:00[Asia/Ho_Chi_Minh]","0.0","19.22"
-"Verify Login Features","Customer can't login with incorrect User Email or non-Existed User Email","FAILURE","2019-12-08T21:18:15.979+07:00[Asia/Ho_Chi_Minh]","0.0","230.49"
+"Verify Search Features","Customer Can Search With Filter","FAILURE","2019-12-09T12:21:18.16+07:00[Asia/Ho_Chi_Minh]","0.0","117.12"
+"Verify Login Features","Cursor is focused on User Email field by default","FAILURE","2019-12-09T12:49:23.607+07:00[Asia/Ho_Chi_Minh]","0.0","14.32"
+"Verify Login Features","Customer can login successfully with valid User Email and Password","FAILURE","2019-12-09T12:49:38.426+07:00[Asia/Ho_Chi_Minh]","0.0","45.24"

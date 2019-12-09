@@ -1,1 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"Verify Search Features","Cursor is focused on User Email field by default","SUCCESS","2019-12-08T23:49:05.619+07:00[Asia/Ho_Chi_Minh]","0.0","19.57"
+"Verify HomePage","Customer can navigate to Login Page successfully","SUCCESS","2019-12-09T12:48:07.132+07:00[Asia/Ho_Chi_Minh]","0.0","24.22"
+"Verify HomePage","Customer can navigate to Search Page successfully","SUCCESS","2019-12-09T12:48:31.977+07:00[Asia/Ho_Chi_Minh]","0.0","20.6"

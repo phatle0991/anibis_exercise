@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Verify HomePage" skipped="0" tests="2" time="44.82" timestamp="2019-12-09 12:48:07"><testcase name="Customer can navigate to Login Page successfully"/><testcase name="Customer can navigate to Search Page successfully"/></testsuite>

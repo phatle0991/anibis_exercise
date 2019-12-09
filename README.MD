@@ -1,22 +1,8 @@
-selenium-cucumber-java-maven
+selenium-serenity-cucumber-java-maven
 =================
-
-selenium-cucumber : Automation Testing Using Java
-
-selenium-cucumber is a behavior driven development (BDD) approach to write automation test script to test Web.
-It enables you to write and execute automated acceptance/unit tests.
-It is cross-platform, open source and free.
-Automate your test cases with minimal coding.
-[More Details](http://seleniumcucumber.info/)
-
-Documentation
--------------
-* [Installation](https://github.com/selenium-cucumber/selenium-cucumber-java/blob/master/doc/installation.md)
-* [Predefined steps](https://github.com/selenium-cucumber/selenium-cucumber-java/blob/master/doc/canned_steps.md)
-
 Download a Framework
 --------------
-* Maven - https://github.com/selenium-cucumber/selenium-cucumber-java-maven-example
+* Maven - https://github.com/phatle0991/anibis_exercise.git
 
 Framework Architecture
 --------------
@@ -25,94 +11,75 @@ Framework Architecture
 		|_src/main/java
 		|	|_config
 		|	|   |_config.properties
+		|   |   |_serenity.properties
 		|	|_pages
 		|	|   |_HomePage.class
 		|	|	|_LoginPage.class
-		|	|	|_SearchResultPage.class
+		|	|	|_SearchPage.class
 		|	|_util
 		|       |_Config.class
-		|       |_Drivers.class
-		|       |_ElementTry.class
+		|       |_ElementUtils.class
 		|       |_SetUp.class
-		|       |_TearDown.class
-		|   
+		|       |_Util.class
+		|       
 		|_src/test/java
 		|   |_stepdefs
 		|   |   |_HomeStepDefs.class
 		|   |   |_LoginStepDefs.class
-		|   |   |_SearchResultStepDefs.class
+		|   |   |_SearchStepDefs.class
 		|   |_testrunner
+		|       |_browsers
+		|       |   |_chrome
+		|       |   |_edge
+		|       |   |_firefox
+		|       |   |_ie
+		|       |_hook
+		|       |    |_Hooks
+		|       |
 		|       |_TestRunnerSearch.class
 		|   
 		|_src/test/resources
 		|	|_features
 		|	|   |_Home.feature
 		|	|   |_Login.feature
-		|	|   |_SearchResult.feature
+		|	|   |_Search.feature
 
-* **src/test/resources/features** - all the cucumber features files (files .feature ext) goes here.
+* **src/main/java/config** - config.properties is storing CONSTANT for testing. serenity.properties is using for serenity report setting
+* **src/main/java/pages** - all the Pages in POM goes here.
+* **src/main/java/util** - Utilize functions
+- Try to click/fill/getText/waitPageLoad/waitElementPresent..... Web Element Facade to prevent timed out issue, stop to try after maxTries times.
+- Select option/link/item from List<WebElementFacde>
 * **src/test/java/stepdefs** - you can define step defintion under this package for your feature steps.
-* **src/test/java/testrunner** - this package contains TestNG cucumber runner where you can 
-configure your glue code location (step defintions)
-Hooks where you can configure all before and after test settings Hooks.java, DriverUtil.java contains code 
-for intializing driver instances for respective driver.
-* **src/main/java/platformConfigs** - If you want to run your test on saucelab and browserstack platforms, you need to add its configuration such as username, access key here.
-* **src/main/java/browserConfig** - When you run your test on remote browser/platform you have to provide capabilities and platform information here.
-* **src/main/java/appUnderTest** - If you are testing mobile based application you can keep your app build here.
+* **src/test/java/testrunner** 
+- This package contains JUnit Cucumber runner where you can 
+configure your glue code location (step defintions). 
+**- This test framework support cross browser test**, just config which browser you want to run in glue. SetUp hook will be run to initilize WebDriver Depend on which browser you had selected
+**i.e I want to run Test with Chrome browser**: glue = {"stepdefs","testrunner.hook","testrunner.browsers.**chrome**"}
+**- Hooks.class** where you can configure all before and after Test with @After/@Before annotation. It will be run after each scenario.
+* **src/test/resources/features** - all the cucumber features files (files .feature ext) goes here.
 
 Writing a test
 --------------
 
-The cucumber features goes in the `features` library and should have the ".feature" extension.
-
-You can start out by looking at `features/my_first.feature`. You can extend this feature or make your own features using some of the [predefined steps](doc/canned_steps.md) that comes with selenium-cucumber.
-
+The cucumber features goes in the `**src/test/resources/features**` library and should have the ".feature" extension.
 
 Predefined steps
 -----------------
 By using predefined steps you can automate your test cases more quickly, more efficiently and without much coding.
 
-The predefined steps are located [here](doc/canned_steps.md)
+The predefined steps are located **src/test/resources/stepdefs**
+
+
+Setting Browser from TestRunner
+-----------------
+You can define to run with which browser from TestRunner: **src/test/java/testrunner**  
+
+i.e: **i.e I want to run Test with Chrome browser**: glue = {"stepdefs","testrunner.hook","testrunner.browsers.**chrome**"}
 
 Running test
 --------------
 
 Go to your project directory from terminal and hit following commands
-* `mvn test (defualt will run on local firefox browser)`
-* `mvn test "-Dbrowser=chrome" (to use any other browser)`
-* `mvn test -Dcucumber.options="classpath:features/my_first.feature"` to run specific feature.
-* `mvn test -Dcucumber.options="–-plugin html:target/result-html"` to generate a HTML report.
-* `mvn test -Dcucumber.options="–-plugin json:target/result-json"` to generate a JSON report.
-
-Running test On remote browser/platform
----------------------------------------
-
-To run test on saucelab, browserstack or any other remote browser you need to create browser config file under src/main/java/browserConfig
-
-To run on saucelab create config file with name preceding with saucelab
-- saucelab_windows_chrome.properties
-- saucelab_mac_firefox.properties
-
-* `mvn test "-Dconfig=saucelab_mac_firefox"`
-
-To run on browserstack create config file with name preceding with browserstack
-- browserstack_windows_chrome.properties
-- browserstack_mac_firefox.properties
-
-* `mvn test "-Dconfig=browserstack_mac_firefox"`
-
-Maven/Gradle Dependency
------------------------
-
-See https://jitpack.io/#selenium-cucumber/selenium-cucumber-java .
-
-License
--------
-
-(The MIT License)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+* `mvn verify`
+* `mvn verify "-Dcucumber.options"="""`
+* `mvn verify -Dcucumber.options="classpath:features/Home.feature"` to run specific feature.
