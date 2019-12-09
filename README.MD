@@ -4,6 +4,12 @@ Download a Framework
 --------------
 * Maven - https://github.com/phatle0991/anibis_exercise.git
 
+Prerequisite
+--------------
+- Install JDK 1.8
+- Install Cucumber for Java plugin for your Idea (intellij or eclipse) - https://www.hindsightsoftware.com/blog/cucumber-jvm-intellij#:~:targetText=Install%20and%20conFIgure%20cucumber%20plugin&targetText=Head%20to%20Preferences%20%3E%20Plugins%20and,to%20restart%20IntelliJ%20once%20complete.
+- Install maven - https://www.mkyong.com/maven/how-to-install-maven-in-windows/
+
 Framework Architecture
 --------------
 	anibis_exercise
@@ -55,9 +61,10 @@ Framework Architecture
 
 * **src/test/java/testrunner** - This package contains JUnit Cucumber runner where you can 
 configure your glue code location (step defintions). 
->** This test framework support cross browser test**, just config which browser you want to run in glue. SetUp hook will be run to initilize WebDriver Depend on which browser you had selected
+> **This test framework support cross browser test**, just config which browser you want to run in glue. SetUp hook will be run to initilize WebDriver Depend on which browser you had selected
 **i.e I want to run Test with Chrome browser**: glue = {"stepdefs","testrunner.hook","testrunner.browsers.**chrome**"}
->** Hooks.class** where you can configure all before and after Test with @After/@Before annotation. It will be run after each scenario.
+
+> **Hooks.class** where you can configure all before and after Test with @After/@Before annotation. It will be run after each scenario.
 
 * **src/test/resources/features** - all the cucumber features files (files .feature ext) goes here.
 
@@ -86,3 +93,8 @@ Go to your project directory from terminal and hit following commands
 * `mvn verify`
 * `mvn verify "-Dcucumber.options"="""`
 * `mvn verify -Dcucumber.options="classpath:features/Home.feature"` to run specific feature.
+
+Test Report
+--------------
+Serenity test report will be generate in: $project.dir/target/site/serenity/index.html
+i.e /Users/macair/IdeaProjects/anibis_exercise/target/site/serenity/index.html

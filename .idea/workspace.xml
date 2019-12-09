@@ -4,27 +4,6 @@
     <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CommonStepDefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/SearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/SearchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/anibis_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/anibis_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/ElementUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ElementUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Verify Login Features.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Verify Login Features.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Verify Login Features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Verify Login Features.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5b910ed0aaac8334ab97be172513514399b1c7c89fc0748ddcce298af0febba9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/CommonStepDefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/SearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/SearchStepDefs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
