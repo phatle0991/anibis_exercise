@@ -9,7 +9,7 @@ Feature: Verify User Account Feature
     And I enter User Password = "$validPassword"
     And I click on Login button
 
-  @UserAccountPage-Loggedin-ValidInfo-Scenarios
+  @UserAccountPage-Validation-Scenarios
   Scenario: Customer can login successfully with valid User Email and Password
     When I navigate to User Default Page from Home Page
     Then I verify User Default Page loaded successfully

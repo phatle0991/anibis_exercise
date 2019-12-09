@@ -18,7 +18,7 @@ Feature: Verify Search Features
     Then I verify default page = 1
     Then I verify Search Result default items
 
-  @SearchPage-SortValidate-Scenarios
+  @SearchPage-Sort-Scenarios
   Scenario: Verify Sort feature in Search Result
     When I select sort = "Plus récentes d'abord"
     Then I verify sort = "Plus récentes d'abord" result

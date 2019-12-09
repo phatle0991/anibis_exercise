@@ -1,16 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: Verify HomePage
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 192.252 s <<< FAILURE! - in Verify HomePage
-Customer can navigate to User Page successfully(Verify HomePage)  Time elapsed: 140.707 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: 
-Expected condition failed: waiting for UserDefaultPage.linkMyAccountPage to be present (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Macs-MacBook-Air.local', ip: 'fe80:0:0:0:88b:c5e7:28bd:8ff4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_232'
-Driver info: driver.version: unknown
-Caused by: org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for UserDefaultPage.linkMyAccountPage to be present (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Macs-MacBook-Air.local', ip: 'fe80:0:0:0:88b:c5e7:28bd:8ff4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_232'
-Driver info: driver.version: unknown
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.77 s <<< FAILURE! - in Verify HomePage
+Customer can navigate to Login Page successfully(Verify HomePage)  Time elapsed: 1.575 s  <<< ERROR!
+java.lang.NullPointerException
+
+Customer can navigate to Search Page successfully(Verify HomePage)  Time elapsed: 0.065 s  <<< ERROR!
+java.lang.NullPointerException
+
+Customer can navigate to User Page successfully(Verify HomePage)  Time elapsed: 0.098 s  <<< ERROR!
+java.lang.NullPointerException
 

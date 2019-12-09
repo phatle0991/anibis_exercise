@@ -9,14 +9,14 @@ Feature: Verify Login Features
   Scenario: Cursor is focused on User Email field by default
     Then I verify cursor is focused on User Email field
 
-  @LoginPage-LoginSuccessfully-Scenarios
+  @LoginPage-Positive-Scenarios
   Scenario: Customer can login successfully with valid User Email and Password
     When I enter User Email = "$validUserEmail"
     And I click on Email Validation button
     And I enter User Password = "$validPassword"
     And I click on Login button
 
-  @LoginPage-UserEmail-Validation-Scenarios
+  @LoginPage-Validation-Scenarios
   Scenario Outline: Customer can't login with incorrect User Email or non-Existed User Email
     When I enter User Email = "<userEmail>"
     And I click on Email Validation button

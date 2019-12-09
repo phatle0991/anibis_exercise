@@ -17,7 +17,7 @@ Framework Architecture
 		|_src/main/java
 		|	|_config
 		|	|   |_config.properties
-        |	|   |_serenity.properties
+		|	|   |_serenity.properties
 		|	|_pages
 		|	|   |_HomePage.class
 		|	|	|_LoginPage.class
@@ -89,10 +89,17 @@ You can define to run with which browser from TestRunner: **src/test/java/testru
 Running test
 --------------
 
+**Run by Command Line:**
 Go to your project directory from terminal and hit following commands
 * `mvn verify`
-* `mvn verify "-Dcucumber.options"="""`
 * `mvn verify -Dcucumber.options="classpath:features/Home.feature"` to run specific feature.
+
+**Run by JUnit**
+1. Right click the Project
+2. Click on Maven
+3. Click on Reimport
+4. Right click on src/test/java/testrunner/TestRunner.class
+5. Click on Run 'TestRunner'
 
 Test Report
 --------------

@@ -5,17 +5,17 @@
       Given I open Home Page
       Then I verify Home Page loaded successfully
 
-    @Homepage-Navigate-LoginPage-Scenarios
+    @Homepage-Navigation-Scenarios
     Scenario: Customer can navigate to Login Page successfully
       When I click on Login Link
       Then I verify Login Page loaded successfully
 
-    @Homepage-Navigate-SearchPage-Scenarios
+    @Homepage-Navigation-Scenarios
     Scenario: Customer can navigate to Search Page successfully
       When I click on Search Button from Home Page
       Then I verify Search Page loaded successfully
 
-    @Homepage-Navigate-UserPage-Scenarios
+    @Homepage-Navigation-Scenarios
     Scenario: Customer can navigate to User Page successfully
       When I click on Login Link
       When I enter User Email = "$validUserEmail"

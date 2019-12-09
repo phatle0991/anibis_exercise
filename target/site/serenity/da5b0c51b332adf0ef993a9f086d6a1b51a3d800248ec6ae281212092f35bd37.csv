@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Verify HomePage","Customer can navigate to User Page successfully","FAILURE","2019-12-09T22:29:38.315+07:00[Asia/Ho_Chi_Minh]","0.0","139.93"
-"Verify Login Features","Cursor is focused on User Email field by default","FAILURE","2019-12-09T22:31:59.038+07:00[Asia/Ho_Chi_Minh]","0.0","15.31"
-"Verify User Account Feature","Customer can login successfully with valid User Email and Password","FAILURE","2019-12-09T22:38:24.513+07:00[Asia/Ho_Chi_Minh]","0.0","136.82"
