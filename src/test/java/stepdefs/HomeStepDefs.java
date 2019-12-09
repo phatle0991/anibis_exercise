@@ -7,7 +7,6 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
 import pages.HomePage;
 import util.Config;
-import util.Util;
 
 public class HomeStepDefs {
     @Steps
@@ -36,11 +35,8 @@ public class HomeStepDefs {
         homePage.clickBtnSearch();
     }
 
-    @Then("I verify User Name displayed correctly at Home Page")
-    public void iVerifySigedName() throws Exception{
-        String singedName = homePage.verifySingedIn();
-        String EXPECTED_SIGED_NAME = Config.getProperty("signedName");
-        Assert.assertEquals(EXPECTED_SIGED_NAME,singedName);
-        Util.printLog("[INFO] Login successfully with Name = " + singedName);
+    @When("I navigate to User Default Page from Home Page")
+    public void iNavigateToUserDefaultPage() throws Exception{
+        homePage.navigateToUserDefaultPage();
     }
 }

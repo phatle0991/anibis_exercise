@@ -11,7 +11,7 @@ public class HomePage extends PageObject {
     @FindBy(xpath = "//a[@id='ctl00_Header1_ctlHeaderMetaBar_ucMainLinks_hypMyAnibis']")
     private WebElementFacade linkLogin;
     @FindBy(xpath = "//a[@id='ctl00_Header1_ctlHeaderMetaBar_ucMainLinks_hypMyAnibis']/font/font")
-    private WebElementFacade lblUsrName;
+    private WebElementFacade linkUserLoggedIn;
     @FindBy(xpath = "//a[@id='ctl00_phlContent_ctlHeaderSearchFilter_ctlKeywordAutocomplete_btnSearch']")
     private WebElementFacade btnSearch;
 
@@ -28,8 +28,8 @@ public class HomePage extends PageObject {
         ElementUtils.tryClick(linkLogin);
     }
 
-    public String verifySingedIn() throws Exception{
-        return ElementUtils.tryGetText(lblUsrName);
+    public void navigateToUserDefaultPage() throws Exception{
+        ElementUtils.tryClick(linkUserLoggedIn);
     }
 
     public void clickBtnSearch() throws Exception{

@@ -11,9 +11,6 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Date;
 
-import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
-import static org.hamcrest.Matchers.is;
-
 public class Util {
     public static SoftAssertions softAssertions;
 

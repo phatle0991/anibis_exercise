@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Verify Search Features" skipped="0" tests="1" time="117.12" timestamp="2019-12-09 12:21:18"><testcase name="Customer Can Search With Filter"><failure message="price down&#10;Expected: a value greater than &lt;1050&gt;&#10;     but: &lt;1016&gt; was less than &lt;1050&gt;" type="java.lang.AssertionError">price down
-Expected: a value greater than &lt;1050&gt;
-     but: &lt;1016&gt; was less than &lt;1050&gt;</failure><system-err>price down
-Expected: a value greater than &lt;1050&gt;
-     but: &lt;1016&gt; was less than &lt;1050&gt;
-util.ElementUtils.verifySortResult(ElementUtils.java:201)
-pages.SearchPage.verifySort(SearchPage.java:114)
-stepdefs.SearchStepDefs.iVerifySortResult(SearchStepDefs.java:90)
-cucumber.runner.Runner.runPickle(Runner.java:80)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Verify Search Features" skipped="0" tests="2" time="111.12" timestamp="2019-12-09 10:36:33"><testcase name="Customer Can Search With Filter"/><testcase name="Verify Sort feature in Search Result"/></testsuite>

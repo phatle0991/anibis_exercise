@@ -5,6 +5,7 @@ Feature: Verify Search Features
     Given I open Search Page
     Then I verify Search Page loaded successfully
 
+
   @SearchPage-Search-Scenarios
   Scenario: Customer Can Search With Filter
     When I select Search Category = "Immobilier"
@@ -16,6 +17,9 @@ Feature: Verify Search Features
     And I click on Apply Price button
     Then I verify default page = 1
     Then I verify Search Result default items
+
+  @SearchPage-SortValidate-Scenarios
+  Scenario: Verify Sort feature in Search Result
     When I select sort = "Plus récentes d'abord"
     Then I verify sort = "Plus récentes d'abord" result
     When I select sort = "Prix croissant"

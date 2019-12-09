@@ -3,13 +3,12 @@ package pages;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.Color;
 import util.Config;
 import util.ElementUtils;
 import util.SetUp;
-
-import javax.swing.text.html.parser.Element;
 
 public class LoginPage extends PageObject {
     WebDriver webDriver = SetUp.driver;
@@ -41,6 +40,7 @@ public class LoginPage extends PageObject {
 
     public void fillUsrEmail(String usrEmail) throws Exception{
         ElementUtils.tryFill(txtUsrEmail,usrEmail);
+        ElementUtils.tryFillKeys(txtUsrEmail,Keys.TAB);
     }
 
     public void fillPwd(String userPwd) throws Exception{

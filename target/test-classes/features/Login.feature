@@ -12,10 +12,10 @@ Feature: Verify Login Features
   @LoginPage-LoginSuccessfully-Scenarios
   Scenario: Customer can login successfully with valid User Email and Password
     When I enter User Email = "$validUserEmail"
-    And I click on Login button
+    And I click on Email Validation button
     And I enter User Password = "$validPassword"
-    Then I verify User Name displayed correctly at Home Page
-    
+    And I click on Login button
+
   @LoginPage-UserEmail-Validation-Scenarios
   Scenario Outline: Customer can't login with incorrect User Email or non-Existed User Email
     When I enter User Email = "<userEmail>"

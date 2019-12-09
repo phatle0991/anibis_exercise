@@ -3,13 +3,10 @@ package stepdefs;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import gherkin.lexer.Th;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
-import pages.LoginPage;
 import pages.SearchPage;
 import util.Config;
-import util.SetUp;
 import util.Util;
 
 public class SearchStepDefs {

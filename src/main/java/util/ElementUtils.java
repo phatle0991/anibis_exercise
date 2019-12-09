@@ -4,15 +4,14 @@ Element Support to prevent timed out error. Web Element actions will be re-execu
 package util;
 
 import net.serenitybdd.core.pages.WebElementFacade;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
-import util.Util;
 
+import net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException;
+import org.openqa.selenium.Keys;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import org.openqa.selenium.ElementClickInterceptedException;
+import static util.Util.*;
+
 import org.openqa.selenium.WebDriver;
 
 public class ElementUtils {
@@ -23,20 +22,20 @@ public class ElementUtils {
 
     //Try to click Web Element Facade, stop to try after maxTries times
     public static void tryClick(WebElementFacade btnClick) throws Exception {
-        int count = 1;
+        int count = 0;
         boolean nextTry = true;
         try {
             while(nextTry == true) {
                 btnClick.waitUntilClickable();
                 btnClick.click();
-                Util.printLog("[INFO] Click on " + btnClick + " successfully after " + count + " times");
+                printLog("[INFO] Click on " + btnClick + " successfully after " + count + " times try");
                 Thread.sleep(SLEEP2);
                 nextTry = false;
                 }
             } catch (Exception e){
                 Thread.sleep(SLEEP2);
                 if (count == MAX_TRIES) {
-                    Util.printLog("[ERROR] Clink on " + btnClick + " failed after tried " + count + " times");
+                    printLog("[ERROR] Clink on " + btnClick + " failed after tried " + count + " times try");
                     throw e;
                 }
                 count++;
@@ -44,21 +43,43 @@ public class ElementUtils {
     }
 
     //Try to fill Web Element Facade, stop to try after maxTries times
-    public static void tryFill(WebElementFacade txtField, String text) throws Exception {
-        int count = 1;
+    public static void tryFill(WebElementFacade txtField, String keyWords) throws Exception {
+        int count = 0;
         boolean nextTry = true;
         try {
             while(nextTry == true) {
                 txtField.waitUntilPresent();
-                txtField.sendKeys(text);
-                Thread.sleep(SLEEP1);
-                Util.printLog("[INFO] Fill out " + txtField + " = " + text + " successfully after = " + count + " times");
+                txtField.sendKeys(keyWords);
+                Thread.sleep(SLEEP2);
+                printLog("[INFO] Fill out " + txtField + " = " + keyWords + " successfully after = " + count + " times try");
                 nextTry = false;
             }
         } catch (Exception e){
             Thread.sleep(SLEEP2);
             if (count == MAX_TRIES) {
-                Util.printLog("[ERROR] Fill out " + txtField  + " = " + text + " failed after tried " + count + " times");
+                printLog("[ERROR] Fill out " + txtField  + " = " + keyWords + " failed after tried " + count + " times try");
+                throw e;
+            }
+            count++;
+        }
+    }
+
+    //Try to fill Keys Web Element Facade, stop to try after maxTries times
+    public static void tryFillKeys(WebElementFacade txtField, Keys keyWords) throws Exception {
+        int count = 0;
+        boolean nextTry = true;
+        try {
+            while(nextTry == true) {
+                txtField.waitUntilPresent();
+                txtField.sendKeys(keyWords);
+                Thread.sleep(SLEEP2);
+                printLog("[INFO] Fill out " + txtField + " = " + keyWords + " successfully after = " + count + " times try");
+                nextTry = false;
+            }
+        } catch (Exception e){
+            Thread.sleep(SLEEP2);
+            if (count == MAX_TRIES) {
+                printLog("[ERROR] Fill out " + txtField  + " = " + keyWords + " failed after tried " + count + " times try");
                 throw e;
             }
             count++;
@@ -67,7 +88,7 @@ public class ElementUtils {
 
     //Try to get Web Element Facade text, stop to try after maxTries times
     public static String tryGetText(WebElementFacade lblField) throws Exception {
-        int count = 1;
+        int count = 0;
         String result ="";
         boolean nextTry = true;
         try {
@@ -75,13 +96,13 @@ public class ElementUtils {
                 Thread.sleep(SLEEP1);
                 lblField.waitUntilPresent();
                 result = lblField.getText();
-                Util.printLog("[INFO] Get " + lblField + " = " + result + " after "+ count + " times");
+                printLog("[INFO] Get " + lblField + " = " + result + " after "+ count + " times try");
                 nextTry = false;
             }
         } catch (Exception e){
             Thread.sleep(SLEEP2);
             if (count == MAX_TRIES) {
-                Util.printLog("[ERROR] Get value of " + lblField + " failed after tried " + count + " times");
+                printLog("[ERROR] Get value of " + lblField + " failed after tried " + count + " times try");
                 throw e;
             }
             count++;
@@ -91,17 +112,17 @@ public class ElementUtils {
 
     //Wait for page load, stop to try after maxTries times
     public static void waitPageLoad(WebDriver driver, String expectedTitle) throws Exception {
-        int count = 1;
+        int count = 0;
         boolean nextTry = true;
         while(nextTry == true){
             String currentTitle = driver.getTitle();
             Thread.sleep(SLEEP2);
             if (currentTitle.equals(expectedTitle)){
                 nextTry = false;
-                Util.printLog("[INFO] Page loaded successfully with title = " + expectedTitle + " after " + count + " times");
+                printLog("[INFO] Page loaded successfully with title = " + expectedTitle + " after " + count + " times try");
             }
             else if(count == MAX_TRIES) {
-                throw new Exception("[ERROR] Waiting for title = " + expectedTitle + " failed after " + count + " times");
+                throw new Exception("[ERROR] Waiting for title = " + expectedTitle + " failed after " + count + " times try");
             }
             count++;
         }
@@ -109,17 +130,17 @@ public class ElementUtils {
 
     //Wait for element present, stop to try after maxTries times
     public static void waitElementPresent(WebElementFacade elementObject) throws Exception {
-        int count = 1;
+        int count = 0;
         boolean nextTry = true;
         while(nextTry == true){
             try {
                 elementObject.waitUntilPresent();
-                Util.printLog("[INFO] Element " + elementObject + " is presented");
+                printLog("[INFO] Element " + elementObject + " is presented after wait " + count + " times try");
                 nextTry = false;
-            } catch (ElementClickInterceptedException e){
+            } catch (ElementShouldBePresentException e){
                 Thread.sleep(SLEEP2);
                 if (count == MAX_TRIES){
-                    Util.printLog("[ERROR] Element " + elementObject + " is not presented after wait " + count + " times");
+                    printLog("[ERROR] Element " + elementObject + " is not presented after wait " + count + " times try");
                     throw e;
                 }
                 count++;
@@ -136,7 +157,7 @@ public class ElementUtils {
             if (searchType.equalsIgnoreCase("equal")){
                 if (currentListName.equalsIgnoreCase(option)) {
                     ElementUtils.tryClick(element);
-                    Util.printLog("[INFO] " + currentListName + " category has been selected successfully. Search type = equal");
+                    printLog("[INFO] " + currentListName + " category has been selected successfully. Search type = equal");
                     break;
                 }
             }
@@ -144,7 +165,7 @@ public class ElementUtils {
             else {
                 if (currentListName.contains(option)) {
                     ElementUtils.tryClick(element);
-                    Util.printLog("[INFO] " + currentListName + " category has been selected successfully. Search type = contain");
+                    printLog("[INFO] " + currentListName + " category has been selected successfully. Search type = contain");
                     break;
                 }
             }
@@ -158,7 +179,7 @@ public class ElementUtils {
             String currentItemStr = element.getText();
             //In Case Date - change Date to formate YYYYYMMDD
             if(sortType.equalsIgnoreCase("Plus récentes d'abord")){
-                currentItemStr = Util.covertStrToDate(currentItemStr,"YYYYMMDD");
+                currentItemStr = covertStrToDate(currentItemStr,"YYYYMMDD");
             }
             //In Case Price - Replace symbol, characters
             else {
@@ -181,6 +202,6 @@ public class ElementUtils {
             }
             previousItem = currentItem;
         }
-        Util.printLog("[INFO] Verify sort result passed with sort mode = " + sortType);
+        printLog("[INFO] Verify sort result passed with sort mode = " + sortType);
     }
 }

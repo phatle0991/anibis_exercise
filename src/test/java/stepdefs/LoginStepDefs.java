@@ -41,20 +41,30 @@ public class LoginStepDefs {
 
     @When("^I enter User Email = \"([^\"]*)\"$")
     public void iEnterUserEmail(String usrEmail) throws Exception{
+        String USER_EMAIL = "";
+        //In Case get data from config.properties
         if(usrEmail.equals("$validUserEmail")){
-            String USER_EMAIL = Config.getProperty("validUsrEmail");
-            usrEmail = USER_EMAIL;
+            USER_EMAIL = Config.getProperty("validUsrEmail");
         }
-        loginPage.fillUsrEmail(usrEmail);
+        //In Case not get data from config.properties
+        else {
+            USER_EMAIL = usrEmail;
+        }
+        loginPage.fillUsrEmail(USER_EMAIL);
     }
 
     @When("^I enter User Password = \"([^\"]*)\"$")
     public void iEnterUserPwd(String usrPwd) throws Exception{
+        String USER_PWD = "";
+        //In Case get data from config.properties
         if(usrPwd.equals("$validPassword")){
-            String USER_PWD = Config.getProperty("validPwd");
-            usrPwd = USER_PWD;
+            USER_PWD = Config.getProperty("validPwd");
         }
-        loginPage.fillPwd(usrPwd);
+        //In Case not get data from config.properties
+        else {
+            USER_PWD = usrPwd;
+        }
+        loginPage.fillPwd(USER_PWD);
     }
 
     @Then("^I verify User Email error message = \"([^\"]*)\"$")
