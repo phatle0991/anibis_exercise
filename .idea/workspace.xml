@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18c639d6-1cac-462d-bd5f-2f46e829081f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserAccount.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,10 +262,11 @@
     <state x="377" y="63" key="SettingsEditor/1440.23.1920.1057/34.23.1406.877@34.23.1406.877" timestamp="1575562107650" />
     <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575466642558" />
     <state x="379" y="63" key="SettingsEditor/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1575467600692" />
-    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1575862277120">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="486" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1576621219403">
+      <screen x="36" y="23" width="1404" height="877" />
     </state>
-    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575862277120" />
+    <state x="2056" y="386" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1576596197733" />
+    <state x="486" y="324" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/36.23.1404.877@36.23.1404.877" timestamp="1576621219403" />
     <state x="518" y="363" key="git4idea.ui.GitResetDialog" timestamp="1575468917084">
       <screen x="35" y="23" width="1405" height="877" />
     </state>
@@ -283,10 +279,10 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1794" y="249" key="new project wizard/1440.23.1920.1057/34.23.1406.877@1440.23.1920.1057" timestamp="1575468308786" />
-    <state x="2107" y="177" key="refactoring.ChangeSignatureDialog" timestamp="1575904027174">
+    <state x="2107" y="177" key="refactoring.ChangeSignatureDialog" timestamp="1575995080724">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2107" y="177" key="refactoring.ChangeSignatureDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575904027174" />
+    <state x="2107" y="177" key="refactoring.ChangeSignatureDialog/1440.23.1920.1057/36.23.1404.877@1440.23.1920.1057" timestamp="1575995080724" />
     <state x="2065" y="258" width="670" height="158" key="search.everywhere.popup" timestamp="1575712035355">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>

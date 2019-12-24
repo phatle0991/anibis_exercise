@@ -1,9 +1,0 @@
-util/Util.class
-pages/UserDefaultPage.class
-pages/HomePage.class
-pages/UserAccountPage.class
-util/ElementUtils.class
-util/Config.class
-util/SetUp.class
-pages/LoginPage.class
-pages/SearchPage.class

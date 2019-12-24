@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Verify HomePage","Customer can navigate to Login Page successfully","ERROR","2019-12-10T01:03:07.4+07:00[Asia/Ho_Chi_Minh]","0.0","1.55"
-"Verify HomePage","Customer can navigate to Search Page successfully","ERROR","2019-12-10T01:03:09.172+07:00[Asia/Ho_Chi_Minh]","0.0","0.07"
-"Verify HomePage","Customer can navigate to User Page successfully","ERROR","2019-12-10T01:03:09.254+07:00[Asia/Ho_Chi_Minh]","0.0","0.1"
