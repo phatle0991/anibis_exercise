@@ -1,4 +1,4 @@
-selenium-serenity-cucumber-java-maven
+Java - Selenium - Serenity - Cucumber - Maven - POM
 =================
 Download a Framework
 --------------
